@@ -7,38 +7,50 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
         <div id="canvas">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button type="button" class="btn btn-light    col-xs-8 col-sm-8 col-md-2 col-lg-2 navbar-brand" name="button">Camisete.ria</button>
-                <button type="button" class="btn btn-light    col-md-1 col-lg-1 d-none d-md-block" href="">Home</button>
-                <button type="button" class="btn btn-light    col-md-1 col-lg-1 d-none d-md-block" href="">Outra página</button>
-                <button type="button" class="btn btn-light    col-md-1 col-lg-2 d-none d-md-block" href="#">Mais uma</button>
+            <div class="pos-f-t">
 
-                <button type="button" class="btn btn-light    .d-none .d-sm-block .d-md-none offset-xs-2 offset-sm-2 col-xs-1 col-sm-1" name="button"><i  class="icon fa fa-bars"></i></button>
+                <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light">
 
-                <div class="d-none d-md-block  col-md-5  offset-lg-1 col-lg-5">
-                    <form class="form-inline">
 
-                        <div class="col-lg-10">
-                            <input class="form-control                     col-md-5 col-lg-5" type="login">
-                            <input class="form-control                     col-md-5 col-lg-5" type="password">
+                        <a class=" text-center col-8 col-md-2 col-lg-2 navbar-brand" name="button">Camisete.ria</a>
+                        <button class="navbar-toggler btn btn-light    d-md-none" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
 
+
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <div class="navbar-nav">
+                          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                          <a class="nav-item nav-link" href="#">Features</a>
+                          <a class="nav-item nav-link" href="#">Pricing</a>
+                          <form class="form-inline d-block d-sm-none">
+                              <input class="form-control  mr-sm-2" type="login">
+                              <input class="form-control  mr-sm-2" type="password">
+
+                              <button class="btn btn-outline-success my-2 my-xs-0 " type="submit">Log in</button>
+                          </form>
                         </div>
+                    </div>
 
-                        <button class="btn btn-outline-success my-2 my-xs-0   col-md-2 col-lg-2" type="submit">Log in</button>
+                    <form class="form-inline d-none d-md-block">
+                        <input class="form-control  mr-sm-2" type="login">
+                        <input class="form-control  mr-sm-2" type="password">
+
+                        <button class="btn btn-outline-success my-2 my-xs-0 " type="submit">Log in</button>
                     </form>
-                </div>
-            </nav>
 
-
-
-
+                </nav>
+            </div>
 
         </div>
 
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 
 </html>
