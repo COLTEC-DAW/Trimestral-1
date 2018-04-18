@@ -1,3 +1,19 @@
+i{
+    color: black !important;
+    
+}
 a{
-    color: green !important;
+    color: #F75847 !important;
+}
+button{
+    color: #F75847 !important;
+    border-color: #F75847 !important;
+}
+
+#list{
+    margin-top: 3%;
+}
+#canvas{
+    margin-left: 3% !important;
+    margin-right: 3% !important;
 }
