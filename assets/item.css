@@ -1,0 +1,63 @@
+button{
+    border-radius: 5px;
+}
+.button{
+    border-color: black !important;
+    margin-top: 12% !important;
+    font-size: 1.3em !important;
+    font-family: 'Lato', sans-serif;
+    text-align: left !important;
+    color: black !important;
+}
+#elements{
+    margin-top: 3% !important;
+    margin-bottom: 4% !important;
+}
+#info2{
+}
+#leftSide{
+    margin-top: 0% !important;
+}
+#rightSide{
+}
+#title{
+    margin-top: 3% !important;
+    margin-bottom: 2% !important;
+    text-align: center;
+}
+#preco{
+    margin-top: 11% !important;
+    font-size: 2.3em !important;
+    font-family: 'Lato', sans-serif;
+    text-align: left !important;
+}
+#type{
+    margin-top: 11% !important;
+    color: white !important;
+    padding: 0px;
+}
+#imgs{
+    margin-top: 11% !important;
+}
+#comprar{
+    max-height: 13% !important;
+    margin-top: 3% !important;
+}
+.text{
+    margin-top: 12% !important;
+    font-size: 1.3em !important;
+    font-family: 'Lato', sans-serif;
+    text-align: left !important;
+    color: black !important;
+}
+.colorOption{
+    width: 100%;
+    height: 100% !important;
+}
+.dot{
+    height: 75px;
+    background-color: #bbb;
+
+    border-radius: 50%;
+    display: inline-block;
+}

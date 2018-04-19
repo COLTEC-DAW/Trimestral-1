@@ -1,0 +1,73 @@
+
+a{
+    color: #F75847 !important;
+    font-size: 1.6em;
+    font-family: 'Slabo 27px', serif;
+
+}
+button{
+    color: #F75847 !important;
+    border-color: #F75847 !important;
+    font-size: 1.4em;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    color: #F75847 !important;
+}
+#logo{
+    font-size: 2em;
+}
+
+#canvas{
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+}
+#carousel{
+}
+#listSearch{
+    margin-top: 8%;
+}
+#list{
+}
+#pics{
+    margin-top: 3% !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1em !important;
+}
+#rightSide{
+}
+.line{
+    margin-top: 4% !important;
+    text-align: center;
+    margin-bottom: 4% !important;
+}
+
+.pic{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pic:hover{
+    -ms-transform: scale(1.25,1.25); /* IE 9 */
+    -webkit-transform: scale(1.25,1.25); /* Safari */
+    transform: scale(1.25,1.25); /* Standard syntax */
+    -webkit-transition: width 2s, height 2s, -webkit-transform 1s; /* Safari */
+    transition: width 2s, height 2s, transform 1s;
+}
+.divFt{
+    text-align: center;
+    text-decoration-style: solid;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.overlay {
+    text-shadow: white 0px 0px 10px;
+    color: black;
+
+}
+.carrouselBtn {
+    color: white !important;
+}
