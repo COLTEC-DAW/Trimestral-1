@@ -1,7 +1,3 @@
-i{
-    color: black !important;
-    
-}
 a{
     color: #F75847 !important;
 }
@@ -9,11 +5,33 @@ button{
     color: #F75847 !important;
     border-color: #F75847 !important;
 }
-
-#list{
-    margin-top: 3%;
-}
 #canvas{
     margin-left: 3% !important;
     margin-right: 3% !important;
+}
+#myNavbar{
+
+}
+#carrousel{
+    margin-bottom: 6% !important;
+}
+#list{
+    margin-top: 3% !important;
+}
+#pics{
+}
+.line{
+    margin-top: 4% !important;
+    text-align: center;
+    margin-bottom: 4% !important;
+}
+
+.pic{
+    max-width: 100%;
+}
+
+.overlay {
+    text-shadow: white 0px 0px 10px;
+    color: black;
+
 }
