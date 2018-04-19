@@ -36,55 +36,71 @@
     </nav>
 
     <div class="container">
-        <h2 class="mt-4">Camiseta Qualquer</h2>
-        <div class="row mt-4">    
-            <div class="col-lg-4 col-sm-12 col-xs-12">
-                <img class="lista-img d-block" src="../assets/imgs/img-4.jpg" alt="Third slide">
+        <h2 class="mt-4 text-center">Camiseta Qualquer</h2>
+        <div class="row mt-4 mb-4">    
+            <div class="col-lg-4 col-sm-10 col-xs-10 offset-sm-1 offset-xs-1">
+                <img class="lista-img d-block mx-auto" src="../assets/imgs/img-4.jpg" alt="Third slide">
             </div>
             <div class="col-lg-6 offset-lg-1 col-sm-12 col-xs-12">
-                <div class="row">
-                    <div class="col-lg-4 d-flex align-items-center">
-                        <p>Modelo</p>
+                <div class="row mt-4">
+                    <div class="col-lg-4 col-sm-12 col-xs-12 d-flex align-items-center mb-xs-4">
+                        <p class="d-none d-lg-block">Modelo</p>
                     </div>
-                    <div class="col-lg-8 d-block d-flex flex-column">
-                        <div class="input-group">
-                            <div class="align-horizontally input-group-prepend">
-                                <button class="px-auto align-button-horizontally btn btn-outline-secondary" type="button">Masculino</button>
-                                <button class="px-auto align-button-horizontally btn btn-outline-secondary" type="button">Feminino</button>
-                                <button class="px-auto align-button-horizontally btn btn-outline-secondary" type="button">Infantil</button>
+                    <div class="col-lg-8 col-sm-12 col-xs-12 d-block">
+                        <div class="col-lg-12 col-sm-12 col-xs-12 btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary px-auto col-lg-4 col-sm-4">
+                                <input type="radio" name="options" id="option1" autocomplete="off" checked> Masculino
+                            </label>
+                            <label class="btn btn-outline-secondary px-auto col-lg-4 col-sm-4">
+                                <input type="radio" name="options" id="option2" autocomplete="off"> Feminino
+                            </label>
+                            <label class="btn btn-outline-secondary px-auto col-lg-4 col-sm-4">
+                                <input type="radio" name="options" id="option3" autocomplete="off"> Infantil
+                            </label>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4 col-sm-12 col-sm-12 col-xs-12 d-flex align-items-center">
+                        <p class="d-none d-lg-block">Cor</p>
+                    </div>
+                    
+                    <div class="col-lg-8 col-sm-12 col-xs-12 d-block">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-3 col-3">
+                                <span id="dot-green"></span>
+                            </div>
+                            <div class="col-lg-3 col-sm-3 col-3">
+                                <span id="dot-gray"></span>
+                            </div>
+                            <div class="col-lg-3 col-sm-3 col-3">
+                                <span id="dot-orange"></span>
+                            </div>
+                            <div class="col-lg-3 col-sm-3 col-3">
+                                <span id="dot-blue"></span>
                             </div>
                         </div>
                     </div>                    
                 </div>
                 <div class="row mt-5">
-                    <div class="col-lg-4 d-flex align-items-center">
-                        <p>Cor</p>
+                    <div class="col-lg-4 col-sm-12 col-xs-12 d-flex align-items-center">
+                        <p class="d-none d-lg-block">Tamanho</p>
                     </div>
-                    <div class="col-lg-8 d-block">
-                        <div class="input-group">
-                            <div class="input-group-prepend">
-                                <span class="mr-2" id="dot-green"></span>
-                                <span class="mr-2" id="dot-gray"></span>
-                                <span class="mr-2" id="dot-orange"></span>
-                                <span class="mr-2" id="dot-blue"></span>
-                            </div>
-                        </div>
-                    </div>                    
-                </div>
-                <div class="row mt-5">
-                    <div class="col-lg-4 d-flex align-items-center">
-                        <p>Tamanho</p>
-                    </div>
-                    <div class="col-lg-8 d-block">
-                        <div class="input-group">
+                    <div class="col-lg-8 col-sm-12 col-xs-12 d-block">
+                        <div class="input-group col-sm-12 col-xs-12">
                             <select class="form-control">
-                                <option>Default select</option>
+                                <option>P</option>
+                                <option>M</option>
+                                <option>G</option>
+                                <option>GG</option>
                             </select>
                         </div>
                     </div>                    
                 </div>
                 <h2 class="mt-4">R$58,50</h2>
-                <button type="button" class="mt-5 d-block btn-block btn btn-success">Comprar</button>
+                <form action="carrinho.html">
+                    <input class="mt-5 mb-sm-4 d-block btn-block btn btn-success" type="submit" value="Comprar" />
+                </form>
             </div>
         </div>
     </div>
