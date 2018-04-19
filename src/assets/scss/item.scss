@@ -1,0 +1,56 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/breakpoints";
+
+
+.lista-img {
+    @include media-breakpoint-up(md) {
+        width: 427px;
+        height: 612px;     
+    };
+
+    @include media-breakpoint-down(sm) { 
+        width: 270px;
+        height: 388px;
+    } 
+}
+
+#dot-green {
+    height: 75px;
+    width: 75px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dot-gray {
+    height: 75px;
+    width: 75px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block; 
+}
+
+#dot-orange {
+    height: 75px;
+    width: 75px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dot-blue {
+    height: 75px;
+    width: 75px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.align-horizontally {
+    width:100%;
+}
+
+.align-button-horizontally {
+    width:33.34%;
+}
