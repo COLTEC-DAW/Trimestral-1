@@ -1,3 +1,12 @@
 .lista-img {
   width: 226px;
   height: 302px; }
+
+.box-img {
+  -moz-transition: all 500ms;
+  -webkit-transition: all 500ms;
+  transition: all 500ms; }
+  .box-img:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
