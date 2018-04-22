@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Item</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <style>
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+.carousel{
+  margin-top: 20px;
+}
+img{
+  margin-top: 15px;
+}
+
+h2{
+    margin-bottom: 40px;
+}
+
+.btn-circle {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.42;
+  border-radius: 35px;
+}
+
+
+  </style>
+</head>
+
+
+
+  <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><p>Camisete.ria</p></a>
+          </div>
+          <div class="collapse navbar-collapse" id="MyNavbar">
+            <ul class="nav navbar-nav navbar left">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Outra Página</a></li>
+              <li><a href="#">Mais Uma Página</a></li>
+            </ul>
+           
+            <form class="navbar-form navbar-right" class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Login" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Senha" aria-label="Search">
+                <button class="btn btn-default my-2 my-sm-0" type="submit">Log in</button>
+              </form>
+
+          </div>
+        </div>
+      </nav>
+
+<!-- fin navbar -->
+
+    
+              <div class="container">
+                    <h2 class="mt-4 text-left">Camiseta Qualquer</h2>
+                    <div class="row mt-5 mb-5">    
+                        <div class="col-lg-5 col-sm-10 col-xs-10 offset-sm-1 offset-xs-1">
+                            <img class="lista-img img-fluid d-block mx-auto" src="img/roupa.jpeg">
+                        </div>
+                        <div class="col-lg-6 offset-lg-1 col-sm-12 col-xs-12">
+                            <div class="row mt-4">
+                                <div class="col-lg-4 col-sm-12 col-xs-12 d-flex align-items-center mb-xs-4">
+                                    <!-- <p class="d-none d-lg-block">Modelo</p> -->
+                                    <h2>Modelo</h2>
+                                </div>
+                                <div class="col-lg-8 col-sm-12 col-xs-12 d-block">
+                                    <div class="col-lg-12 col-sm-12 col-xs-12 btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-primary px-auto col-lg-4 col-sm-4">
+                                            <input type="radio" name="options" id="option1" autocomplete="off" checked> Masculino
+                                        </label>
+                                        <label class="btn btn-primary px-auto col-lg-4 col-sm-4">
+                                            <input type="radio" name="options" id="option2" autocomplete="off"> Feminino
+                                        </label>
+                                        <label class="btn btn-primary px-auto col-lg-4 col-sm-4">
+                                            <input type="radio" name="options" id="option3" autocomplete="off"> Infantil
+                                        </label>
+                                    </div>
+                                </div>                    
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-4 col-sm-12 col-sm-12 col-xs-12 d-flex align-items-center">
+                                    <!-- <p class="d-none d-lg-block">Cor</p> -->
+                                    <h2>Cor</h2>
+                                </div>
+                                
+                                <div class="col-lg-8 col-sm-12 col-xs-12 d-block">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-sm-3 col-3">
+                                                <button type="button" class="btn btn-success btn-circle"></button>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-3">
+                                                <button type="button" class="btn btn-default btn-circle"></button>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-3">
+                                                <button type="button" class="btn btn-warning btn-circle"></button>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-3 col-3">
+                                                <button type="button" class="btn btn-info btn-circle"></button>
+                                        </div>
+                                    </div>
+                                </div>                    
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-4 col-sm-12 col-xs-12 d-flex align-items-center">
+                                    <!-- <p class="d-none d-lg-block">Tamanho</p> -->
+                                    <h2>Tamanho</h2>
+                                </div>
+                                <div class="col-lg-8 col-sm-12 col-xs-12 d-block">
+                                    <div class="input-group col-sm-12 col-xs-12">
+                                        <select class="form-control">
+                                            <option>P</option>
+                                            <option>M</option>
+                                            <option>G</option>
+                                            <option>GG</option>
+                                        </select>
+                                    </div>
+                                </div>                    
+                            </div>
+                            <h2 class="mt-4">R$59,90</h2>
+                            <form action="carrinho.html">
+                                <input class="mt-5 mb-sm-4 d-block btn-block btn btn-success" type="submit" value="Comprar" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+          
+      </body>
+    </html>

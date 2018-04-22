@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Carrinho</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+    .navbar{
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+.jumbotron{
+    margin-top: 45px;
+}
+
+
+
+  </style>
+</head>
+
+
+
+  <body>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><p>Camisete.ria</p></a>
+          </div>
+          <div class="collapse navbar-collapse" id="MyNavbar">
+            <ul class="nav navbar-nav navbar left">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">Outra Página</a></li>
+              <li><a href="#">Mais Uma Página</a></li>
+            </ul>
+           
+            <form class="navbar-form navbar-right" class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Login" aria-label="Search">
+                <input class="form-control mr-sm-2" type="search" placeholder="Senha" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Log in</button>
+              </form>
+
+          </div>
+        </div>
+      </nav>
+
+      <div class="container my-4">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-4">Ótimo</h1>
+                    <p class="lead">Já estamos quase lá! Preencha os dados abaixo para concluir a sua compra.</p>
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header">
+                            Sua compra
+                        </div>
+                        <div class="card-body">
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-4 my-2">
+                                        <img class="d-none d-lg-block lista-img img-fluid mx-auto" src="img/roupa.jpeg" alt="Third slide">
+                                    </div>
+                                    <div class="col-lg-8 col-12 d-flex align-self-center">
+                                        <div class="col-12">
+                                            <h6>Camisa Qualquer</h6>
+                                            <p>R$ 59,99</p>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row justify-content-between">
+                                <div class="col-4">
+                                    <p>Total:</p>
+                                </div>
+                                <div class="col-4">
+                                    <p class="text-left">R$ 59,99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <fieldset>
+                        <h2>Dados Pessoais</h2>
+                        <form class="col-10">
+                            <div class="form-group row">
+                                <label for="inputNome3" class="justify-content-end col-sm-2 col-form-label">Nome</label>
+                                <div class="col-sm-10">
+                                    <input type="nome" class="form-control" id="inputNome3" placeholder="Nome">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="justify-content-end col-sm-2 col-form-label">E-mail</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="E-mail para contato">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputCpf3" class="col-sm-2 col-form-label">CPF</label>
+                                <div class="col-sm-10">
+                                    <input type="cpf" class="form-control" id="inputcpf3" placeholder="000.000.000-00">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                        <label class="form-check-label" for="gridCheck1">
+                                        Desejo receber promoções e ofertas de e-mail
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                        <h2>Cartão de Crédito</h2>
+                        <form class="col-10">
+                            <div class="form-group row">
+                                <label for="inputNome3" class="justify-content-end col-sm-2 col-form-label">Número do Cartão</label>
+                                <div class="col-sm-10">
+                                    <input type="nome" class="form-control" id="inputCartao" placeholder="XXXX XXXX XXXX XXXX">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputVal" class="justify-content-end col-sm-2 col-form-label">Validade</label>
+                                <div class="col-sm-10">
+                                    <input type="validade" class="form-control" id="inputVal" placeholder="MM/AAAA">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="cvv" class="col-sm-2 col-form-label">CVV</label>
+                                <div class="col-sm-10">
+                                    <input type="cvv" class="form-control" id="cvv" placeholder="XXX">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <button type="submit" class="btn btn-block btn-success">Concluir sua Compra</button>
+                            </div>
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+
+  
+              
+  </body>
+</html>
