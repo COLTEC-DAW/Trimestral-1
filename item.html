@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta encoding="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="item.css">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>     
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">Camisete.ria</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active align-middle">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home2</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 justify-content-end">
+          <input class="form-control mr-sm-2 col-3" type="text" placeholder="Login" aria-label="Search">
+          <input class="form-control mr-sm-2 col-3" type="password" placeholder="Senha" aria-label="Search">
+          <button class="btn btn-outline-success my-2 mr-sm-0" type="submit">Log in</button>
+        </form>
+      </div>
+    </nav>
+    
+    <div class="container">
+      <h1 class="col-lg-5 col-xs-12">Camisa Qualquer</h1>
+      <div class="row">
+        <img class="card-img-top col-lg-6 col-xs-12" src="imgs/teste2.jpeg">
+        <div class="container col-lg-6 col-xs-12">
+          <div class="row controle">
+            <h6 class="d-lg-flex justify-content-start col-6 align-self-center d-none">Modelo:</h6>
+            <div class="btn-group d-flex justify-content-lg-end justify-content-center col-lg-6 col-xs-12" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary">Masculino</button>
+              <button type="button" class="btn btn-secondary">Feminino</button>
+              <button type="button" class="btn btn-secondary">Infantil</button>
+            </div>
+          </div>
+          <div class="row col-12 controle">
+            <h6 class="d-lg-flex col-6 align-self-center d-none">Cor:</h6>
+            <div class="justify-content-lg-end justify-content-center col-lg-6 col-xs-12 row">
+              <div class="col-2">
+                  <span id="dot-green"></span>
+              </div>
+              <div class="col-2">
+                  <span id="dot-gray"></span>
+              </div>
+              <div class="col-2">
+                  <span id="dot-orange"></span>
+              </div>
+              <div class="col-2">
+                  <span id="dot-blue"></span>
+              </div>
+            </div>
+          </div>
+          <div class="row controle">
+            <h6 class="d-lg-flex justify-content-start col-6 align-self-center d-none">Tamanho:</h6>
+            <div class="input-group d-flex justify-content-lg-end justify-content-center col-lg-6 col-xs-12">
+              <select class="form-control">
+                <option>P</option>
+                <option>M</option>
+                <option>G</option>
+                <option>GG</option>
+              </select>         
+            </div>
+          </div>
+          <div class="row controle_preco">
+            <h2 class="d-flex justify-content-lg-start justify-content-center col-lg-6 col-xs-12 align-self-center">59,90</h2>
+          </div>
+          <div class="row controle_preco">
+            <button type="button" class="btn btn-success btn-lg btn-block">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

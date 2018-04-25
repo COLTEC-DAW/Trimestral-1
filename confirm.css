@@ -1,0 +1,10 @@
+
+.rside{
+    overflow: auto;
+    height: 400px;
+}
+
+.conserto{
+    padding-left: 0% !important;
+    margin-left: 15px !important; 
+}
