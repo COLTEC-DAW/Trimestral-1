@@ -21,8 +21,8 @@ img{
     padding: 0%;
 }
 #canvas{
-    margin-left: 0% !important;
-    margin-right: 0% !important;
+    margin-left: 4% !important;
+    margin-right: 4% !important;
 }
 #nav{
     padding: 0px;
@@ -94,7 +94,7 @@ img{
     height: 100% !important;
 }
 .dot{
-    height: 80px;
+    height: 120px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;

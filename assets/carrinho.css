@@ -3,69 +3,45 @@ a{
     color: #F75847 !important;
     font-size: 1.6em;
     font-family: 'Slabo 27px', serif;
-
 }
 button{
     color: #F75847 !important;
     border-color: #F75847 !important;
     font-size: 1.4em;
 }
-
 h1{
-    text-align: center;
     font-size: 3em;
     font-family: 'Lato', sans-serif;
     color: #F75847 !important;
 }
 img{
-    padding: 0%;
-    width: 100%;
     border-radius: 5px;
-}
-#canvas{
-    margin-left: 3% !important;
-    margin-right: 3% !important;
-}
-#nav{
-    padding: 0px;
 }
 #logo{
     font-size: 2em;
 }
-#textoDestaque{
-    margin-top: 2%;
-    background-color: gray;
-}
-#tudo{
-    padding: 0px;
-    margin-bottom: 5%;
-}
-#suaCompra{
-    padding: 0px;
+#cardBody{
+    height: 390px;
+    overflow: auto;
 }
 #dadosPessoais{
-    padding: 0px;
-    background-color: blue;
-}
-.info{
-    margin-top: 60px;
+    height: 60%;
 }
 .button{
-    border-color: black !important;
-    margin-top: 16% !important;
+    border-radius: 5px;
     font-size: 1.3em !important;
-    font-family: 'Lato', sans-serif;
-    text-align: left !important;
-    color: black !important;
-}
-.camiseta{
-    margin-top: 10px;
+    background-color: #F75847 !important;
+    text-align: center !important;
+    color: white !important;
 }
 .mainText{
     font-size: 1.3em;
     text-decoration-style: solid;
-    font-family:
+    font-family: 'Montserrat', sans-serif !important;
+    color: #F75847 !important;
+
 }
 .text{
     font-size: 1em;
+    font-family: 'Slabo 27px', serif;
 }
