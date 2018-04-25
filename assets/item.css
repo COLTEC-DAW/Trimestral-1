@@ -3,26 +3,17 @@ a{
     color: #F75847 !important;
     font-size: 1.6em;
     font-family: 'Slabo 27px', serif;
-
 }
 button{
     color: #F75847 !important;
     border-color: #F75847 !important;
     font-size: 1.4em;
 }
-
 h1{
     text-align: center;
     font-size: 3em;
     font-family: 'Lato', sans-serif;
     color: #F75847 !important;
-}
-img{
-    padding: 0%;
-}
-#canvas{
-    margin-left: 4% !important;
-    margin-right: 4% !important;
 }
 #nav{
     padding: 0px;
@@ -30,60 +21,26 @@ img{
 #logo{
     font-size: 2em;
 }
-#elements{
-    margin-top: 3% !important;
-    margin-bottom: 4% !important;
-}
-#title{
-    margin-top: 3% !important;
-    margin-bottom: 2% !important;
-    text-align: center;
-}
 #preco{
-    margin-top: 11% !important;
     font-size: 2.3em !important;
     font-family: 'Lato', sans-serif;
-    text-align: left !important;
 }
 #preco1{
     margin-top: 16% !important;
     font-size: 2.3em !important;
     font-family: 'Lato', sans-serif;
-    text-align: center !important;
-}
-#leftSide{
-    padding: 0%;
-    margin: 0%;
-}
-#rightSide{
-    padding: 0%;
-    margin: 0%;
 }
 #type{
-    margin-top: 16% !important;
     color: white !important;
-    padding: 0px;
-}
-#imgs{
-    margin: 16% !important;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    padding: 0px;
 }
 #comprar{
     max-height: 10% !important;
-    margin-top: 13% !important;
-    margin-bottom: 13% !important;
-    border-radius: 10px;
+    border-radius: 15px;
     border-color:  #F75847 !important;
     font-size: 2.2em;
     font-family: 'Lato', sans-serif;
-    padding: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 .text{
-    margin-top: 12% !important;
     font-size: 1.3em !important;
     font-family: 'Lato', sans-serif;
     text-align: left !important;
@@ -94,7 +51,8 @@ img{
     height: 100% !important;
 }
 .dot{
-    height: 120px;
+    height: 100px;
+    width: 100px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -102,7 +60,6 @@ img{
 
 .button{
     border-color: black !important;
-    margin-top: 16% !important;
     font-size: 1.3em !important;
     font-family: 'Lato', sans-serif;
     text-align: left !important;
