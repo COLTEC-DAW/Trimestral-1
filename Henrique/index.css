@@ -1,0 +1,17 @@
+.espacamento{
+    margin-top: 35px ;
+    margin-bottom: 20px;
+}
+
+.espacamento1{
+    margin-top: 35px ;
+    margin-bottom: 20px;
+}
+
+.zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.25);
+  }

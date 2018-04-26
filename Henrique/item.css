@@ -51,9 +51,18 @@
         width: 75px; } }
 
   .controle{
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
   }
   .controle_preco{
-    margin-top: 80px !important;;
+    margin-top: 30px !important;;
+  }
+
+  .controle1{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .controle2{
+    margin-bottom: 20px !important;
   }
