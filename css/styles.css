@@ -1,4 +1,9 @@
-#logar{
-  background-color: black;
-  color:white;
+img{
+  border-radius: 10px;
+}
+.dot{
+  border-radius:  50%;
+  display: inline-block;
+  
+  height: 75px;
 }
