@@ -1,0 +1,29 @@
+/* Definir tamanho do carousel */
+.carousel {
+    width: 60em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+/* Colocar margem na barra lateral de navegacao */
+.nav-pills {
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+/* Colocar margem na barra de pesquisa*/
+.form-group.input-group {
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+/* Estilizar o texto de nome e preco da camisa */
+pNomePreco {
+    margin-left: 3em;
+    font-size: 1.3em;
+}
+
+/* zoom na camisa ao passar o mouse */
+img:hover {
+    transform: scale(1.1);
+}
