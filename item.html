@@ -29,7 +29,7 @@
                       </div>
                     </li>
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
+                  <form class="form-inline d-none d-md-block">
                     <input class="form-control mr-sm-2" type="text" placeholder="Username" aria-label="Username">
                     <input class="form-control mr-sm-2" type="password" placeholder="Senha" aria-label="Senha">
                     <button id="logar" class="btn my-2 my-sm-0 btn-outline-light" type="submit">Login</button>
@@ -45,13 +45,16 @@
 
                 <div class="row">
                   <div class="col-4">
-                    <img src="camiseta.jpg" width="300px">
+                    <img src="camiseta.jpg" class="img-fluid" width="300px">
                   </div>
                   <div class="col-8">
                     <div class="row">
-                      <h3>Modelo</h3>
+                      <div class="col-5">
+                        <h3>Modelo</h3>
+                    </div>
+                    <div class="col-7">
                       <label class="btn btn-secondary">
-                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Masculino
+                        <input type="radio" name="options" id="option1" autocomplete="off" > Masculino
                       </label>
                       <label class="btn btn-secondary">
                         <input type="radio" name="options" id="option2" autocomplete="off"> Feminino
@@ -59,23 +62,29 @@
                       <label class="btn btn-secondary">
                         <input type="radio" name="options" id="option3" autocomplete="off"> Infantil
                       </label>
+                    </div>
                   </div>
                   <div class="row">
+                    <div class="col-5">
                       <h3>Cor</h3>
-                      <div class="col-4 row ">
-                        <div class="dot col-3 warning">
+                    </div>
+                      <div class="col-7 row ">
+                        <div class="dot col-3 bg-warning">
                         </div>
-                        <div class="dot col-3 success">
+                        <div class="dot col-3 bg-success">
                         </div>
-                        <div class="dot col-3 danger">
+                        <div class="dot col-3 bg-danger">
                         </div>
-                        <div class="dot col-3 primary">
+                        <div class="dot col-3 bg-primary">
                         </div>
                       </div>
 
                   </div>
                   <div class="row">
+                    <div class="col-5">
                     <h3>Tamanho</h3>
+                  </div>
+                  <div class="col-7">
                     <div class="dropdown">
                       <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Tamanho
@@ -87,10 +96,12 @@
                       </div>
                     </div>
                   </div>
+                  </div>
                   <div class="row">
+                    <div class="col-5">
                     <h3>R$249,99</h3>
                   </div>
-                  <a<a/>
+                  </div>
                     <button type="button" class="btn btn-success btn-lg btn-block">Comprar</button>
                   </div>
                   <div class="btn-group btn-group-toggle" data-toggle="buttons">
