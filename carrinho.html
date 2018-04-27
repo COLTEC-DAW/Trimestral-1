@@ -17,7 +17,7 @@
 
 .jumbotron{
     margin-top: 45px;
-    background-color:#d1f4ba;
+    background-color:#fdff89;
 }
 
 h2{
@@ -29,8 +29,12 @@ h2{
 
 .lista-img {
   width: 200px;
-  height: 300px; }
+  height: 270px; }
 
+img{
+    margin-left: 20px;
+    margin-right: 20px;
+}
   </style>
 </head>
 
@@ -54,8 +58,8 @@ h2{
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar left">
               <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#">Outra Página</a></li>
-              <li><a href="#">Mais Uma Página</a></li>
+              <li><a href="item.html">Item</a></li>
+              <!-- <li><a href="carrinho.html">Carrinho</a></li> -->
             </ul>
           
             <form class="navbar-form navbar-right">
@@ -86,53 +90,69 @@ h2{
                 <div class="col-lg-5">
                     <div class="card">
                         
-                        <div class="card-header lead list-group-item active"><strong>Suas compras</strong></div>
+                        <div class="card-header lead list-group-item active "><strong>Suas compras</strong></div>
                         <div class="card-body scroll" style="overflow-y: scroll; overflow-x: hidden; height: 400px;">
                           <div class="row">
-                            <div class="col-6 navbar-left">
+                           <div class="container">
+                             <div class="col-6 navbar-left hidden-xs">
                               <img class="img-thumbnail lista-img " src="img/roupa.jpeg" >
-                            </div>
-                            <div class="col-6">
+                              </div>
+                           
+                              <div class="col-6 ">
                               <h3 class="col-12">Camiseta qualquer</h3>
                               <p class="col-12">R$ 59,99</p>
                             </div>
-                          </div>
+                        </div>
+                      </div>
+                         
                           <hr>
+
                           <div class="row">
-                            <div class="col-6 navbar-left">
+                           <div class="container">
+                            <div class="col-6 navbar-left hidden-xs">
                               <img class="img-thumbnail lista-img" src="img/roupa.jpeg" >
                             </div>
                             <div class="col-6">
                               <h3 class="col-12">Camiseta qualquer</h3>
                               <p class="col-12">R$ 59,99</p>
                             </div>
+                            </div>
                           </div>
+                        
                           <hr>
+
                           <div class="row">
-                            <div class="col-6 navbar-left">
+                            <div class="container">
+                            <div class="col-6 navbar-left hidden-xs">
                               <img class="img-thumbnail lista-img" src="img/roupa.jpeg"  >
                             </div>
                             <div class="col-6">
                               <h3 class="col-12">Camiseta qualquer</h3>
                               <p class="col-12">R$ 59,99</p>
                             </div>
-                          </div>
-                        </div>
+                         </div>
+                     </div>
+                 </div>
+                       
                         <div class="card-footer">
-                            <div class="row justify-content-between">
-                                <div class="col-4 list-group-item active">
+                            <div class="row justify-content-between ">
+                                <div class="col-4 list-group-item active ">
+                                        <div class="container ">
+
                                    <strong>Total:</strong> 
                                 
-                                <div class="col-4">
-                                    <h4 class="text-right">R$ 174,97</h4>
+                                <div class="col-5">
+                                    <strong class="text-right">R$ 179,97</strong>
                                 </div>
                             </div>
-                            </div>
-                        </div>
-                    </div>
+
+                         </div>
+                      </div>
+                  </div>
+                </div>
                 
                 </div>
-                <div class="col-lg-6 navbar-right">
+                <div class="col-lg-6 col-sm-12 navbar-right">
                     <fieldset>
                         <h2>Dados Pessoais</h2>
                         <form class="col-10">
