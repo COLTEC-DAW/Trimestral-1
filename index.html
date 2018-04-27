@@ -19,11 +19,15 @@
   margin-top: 20px;
 }
 
-img{
-  margin-top: 15px;
+.poster-img{
+  margin-top: 22px;
+  margin-bottom: 15px;
 
 }
 
+img{
+  margin-left: 0px;
+}
 img:hover {
   transform: scale(1.1);
 }
@@ -52,6 +56,11 @@ thumbnail{
     float:  center; /* this is the part that makes it work */
 }
 
+.panel {
+    margin: 20px !important; 
+    padding:0 !important;
+}
+
   </style>
 </head>
 
@@ -74,7 +83,7 @@ thumbnail{
       
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar left">
+            <ul class="nav navbar-nav navbar left  nav-fill w-100 align-items-start">
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="#">Outra Página</a></li>
               <li><a href="#">Mais Uma Página</a></li>
@@ -82,11 +91,11 @@ thumbnail{
           
             <form class="navbar-form navbar-right">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Login">
-                <input type="text" class="form-control" placeholder="Senha">
+                <input type="text" class="form-control  mr-sm-2"  placeholder="Login">
+                <input type="text" class="form-control mr-sm-2" placeholder="Senha">
 
               </div>
-              <button type="submit" class="btn btn-primary">Logar</button>
+              <button type="submit" class="btn btn-primary my-2 my-sm-0">Logar</button>
             </form>
       
           </div><!-- /.navbar-collapse -->
@@ -106,25 +115,25 @@ thumbnail{
         
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="img/ETVitruviano.jpg" style="margin-top: 15px;">
+            <img src="img/ETVitruviano.jpg" >
             <div class="carousel-caption">
-                <h1> Alooooooo </h1>
+                <h1> Lorem 1 </h1>
                 <p>Lorem ipsum dolor sit amet consectetur </p>
             </div>
           </div>
           <!-- fin da active -->
             <div class="item">
-              <img src="img/lobisomem.jpg" style="margin-top: 15px;">
+              <img src="img/lobisomem.jpg" >
               <div class="carousel-caption">
-                  <h1> Alooooooo 2</h1>
+                  <h1> Lorem 2</h1>
                   <p>Lorem ipsum dolor sit amet consectetur </p>
               </div>
             </div>
 
             <div class="item">
-              <img src="img/teste.jpg" style="margin-top: 15px;" >
+              <img src="img/teste.jpg"  >
               <div class="carousel-caption">
-                  <h1> Alooooooo 3</h1>
+                  <h1> Lorem 3</h1>
                   <p>Lorem ipsum dolor sit amet consectetur </p>
               </div>
             </div>
@@ -151,7 +160,7 @@ thumbnail{
                 <div class="left-sidebar">
                   <h2>Categorias</h2>
                   <div class="panel-group category-products" id="accordian">
-                    <div class="panel panel-default">
+                    <div class="panel panel-primary ">
                       <div class="panel-heading">
                         <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordian" href="#">
@@ -162,7 +171,7 @@ thumbnail{
                       </div>
                      
                     </div>
-                    <div class="panel panel-default">
+                    <div class="panel panel-default mt-1">
                       <div class="panel-heading">
                         <h4 class="panel-title">
                           <a data-toggle="collapse" data-parent="#accordian" href="#">
@@ -221,7 +230,7 @@ thumbnail{
 
 
         <div class="container">
-                    <div class="col-sm-9 padding-right">
+                    <div class="col-sm-9 col-md-9 padding-right">
 
                     <form class="col-5" role="search" id="search-form" name="search-form">
                       <div class="right-sidebar">
@@ -235,13 +244,13 @@ thumbnail{
                     </form>
     
                         <div class="features_items"><!-- inicio items-->
-                          <div class="col-sm-4 .col-md-3">
+                          <div class="col-lg-4 col-md-2 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                             <div class="product-image-wrapper">
                               <div class="single-products">
-                                  <div class="productinfo text-center">
+                                  <div class="productinfo  ">
                                      
                                     <a href="item.html">
-                                      <img src="img/roupa.jpeg" class="thumbnail" />
+                                      <img src="img/roupa.jpeg" class="thumbnail poster-img" />
                                     </a>
                                       
                                     <h4>Camiseta Qualquer</h4>
@@ -254,13 +263,13 @@ thumbnail{
                           </div>
 
 
-                          <div class="col-sm-4 .col-md-3">
+                          <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                             <div class="product-image-wrapper">
                               <div class="single-products">
-                                <div class="productinfo text-center">
+                                <div class="productinfo ">
                                   
                                     <a href="item.html">
-                                        <img src="img/roupa.jpeg" class="thumbnail"  />
+                                        <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                       </a>
                                   
                                   <h4>Camiseta Qualquer</h4>
@@ -273,13 +282,13 @@ thumbnail{
                           </div>
 
 
-                          <div class="col-sm-4 .col-md-3">
+                          <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                             <div class="product-image-wrapper">
                               <div class="single-products">
-                                <div class="productinfo text-center">
+                                <div class="productinfo ">
                                     
                                     <a href="item.html">
-                                        <img src="img/roupa.jpeg" class="thumbnail"  />
+                                        <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                       </a>
                                   
                                   <h4>Camiseta Qualquer</h4>
@@ -292,13 +301,13 @@ thumbnail{
                           </div>
 
                           
-                          <div class="col-sm-4">
+                          <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                             <div class="product-image-wrapper">
                               <div class="single-products">
-                                <div class="productinfo text-center">
+                                <div class="productinfo ">
                                    
                                     <a href="item.html">
-                                        <img src="img/roupa.jpeg" class="thumbnail"  />
+                                        <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                       </a>
                                   
                                   <h4>Camiseta Qualquer</h4>
@@ -311,13 +320,13 @@ thumbnail{
                           </div>
 
 
-                          <div class="col-sm-4">
+                          <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                             <div class="product-image-wrapper">
                               <div class="single-products">
-                                <div class="productinfo text-center">
+                                <div class="productinfo ">
                                     
                                     <a href="item.html">
-                                        <img src="img/roupa.jpeg" class="thumbnail"  />
+                                        <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                       </a>
 
                                     <h4>Camiseta Qualquer</h4>
@@ -329,13 +338,13 @@ thumbnail{
                           </div>
                         
                         
-                          <div class="col-sm-4">
+                          <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                             <div class="product-image-wrapper">
                               <div class="single-products">
-                                <div class="productinfo text-center">
+                                <div class="productinfo ">
                                   
                                     <a href="item.html">
-                                        <img src="img/roupa.jpeg" class="thumbnail"  />
+                                        <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                       </a>
                                   
                                   <h4>Camiseta Qualquer</h4>
@@ -347,13 +356,13 @@ thumbnail{
                           </div>
                           
 
-                          <div class="col-sm-4">
+                          <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                               <div class="product-image-wrapper">
                                 <div class="single-products">
-                                  <div class="productinfo text-center">
+                                  <div class="productinfo ">
                                      
                                       <a href="item.html">
-                                          <img src="img/roupa.jpeg" class="thumbnail"  />
+                                          <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                         </a>                                    
                                     
                                     <h4>Camiseta Qualquer</h4>
@@ -365,13 +374,13 @@ thumbnail{
                             </div>
 
 
-                            <div class="col-sm-4">
+                            <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                                 <div class="product-image-wrapper">
                                   <div class="single-products">
-                                    <div class="productinfo text-center">
+                                    <div class="productinfo ">
                                        
                                         <a href="item.html">
-                                            <img src="img/roupa.jpeg" class="thumbnail"  />
+                                            <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                           </a>
 
                                         <h4>Camiseta Qualquer</h4>
@@ -382,13 +391,13 @@ thumbnail{
                                 </div>
                               </div>
                               
-                              <div class="col-sm-4">
+                              <div class="col-lg-4 col-md-1 col-sm-10 offset-lg-0 offset-md-0 offset-sm-1 mb-5 box-img">
                                   <div class="product-image-wrapper">
                                     <div class="single-products">
-                                      <div class="productinfo text-center">
+                                      <div class="productinfo ">
                                           
                                           <a href="item.html">
-                                              <img src="img/roupa.jpeg" class="thumbnail"  />
+                                              <img src="img/roupa.jpeg" class="thumbnail poster-img"  />
                                             </a>                                        
 
                                           <h4>Camiseta Qualquer</h4>
@@ -402,6 +411,7 @@ thumbnail{
                            <!--items-->
                         </div>  
                   </div>
+
                 </div> 
 
                
