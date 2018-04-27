@@ -15,159 +15,152 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="container-fluid">
-                    <div class="row">
-                        <ul class="navbar-nav mr-auto col-12">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Uma página</a>
-                            </li>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Uma página</a>
+                    </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Outra página</a>
-                            </li>
-                      </ul>
-                      <form class="form-inline my-2 my-lg-0 col-12">
-                          <input class="form-control form-control-sm mr-sm-2 col-12" type="text" placeholder="Username">
-                          <input class="form-control form-control-sm mt-2 col-12" type="password" placeholder="Password">
-                          <button class="btn btn-sm btn-outline-warning ml-auto mt-2" type="submit">Login</button>
-                      </form>
-                    </div>
-                </div>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Outra página</a>
+                    </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control form-control-sm mt-2 mt-lg-0" type="text" placeholder="Username">
+                  <input class="form-control form-control-sm mt-2 mt-lg-0 mx-sm-2" type="password" placeholder="Password">
+                  <button class="btn btn-sm btn-outline-warning ml-auto ml-sm-0 mt-2 mt-lg-0" type="submit">Login</button>
+              </form>
             </div>
         </nav>
 
         <div class="container-fluid">
-          <div class="row">
-            <!-- <div class="col-4">
-                <h2 class="">Categorias</h2>
-                <nav class="nav nav-pills flex-column" id="myNavpills">
-                    <a class="nav-link active" href="#animais">Animais</a>
-                    <a class="nav-link" href="#desenhos">Desenhos</a>
-                    <a class="nav-link" href="#esportes">Esportes</a>
-                    <a class="nav-link" href="#filmes">Filmes & Séries</a>
-                    <a class="nav-link" href="#geek">Geek</a>
-                    <a class="nav-link" href="#musica">Música</a>
-                    <a class="nav-link" href="#natureza">Natureza</a>
-                    <a class="nav-link" href="#pintura">Pintura</a>
-                    <a class="nav-link" href="#religioso">Religioso</a>
-                    <a class="nav-link" href="#urbano">Urbano</a>
-                </nav>
-            </div>
-            <div class="col-8">
 
-                <div class="" data-target="#myNavpills">
-                    <h4 id="animais">Item 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                    <h4 id="desenhos">Item 1-1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade d-none d-md-block my-3 mx-auto" data-ride="carousel">
+                <div class="carousel-inner carousel-camisetas">
+                    <div class="carousel-item h-100 active">
+                        <div class="img-background" style="background-image: url(/assets/imgs/slide1.jpg);"></div>
+                        <img class="img-content d-block mx-auto" src="assets/imgs/slide1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <div class="img-background" style="background-image: url(/assets/imgs/slide2.jpg);"></div>
+                        <img class="img-content d-block mx-auto" src="assets/imgs/slide2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item h-100">
+                        <div class="img-background" style="background-image: url(/assets/imgs/slide3.jpg);"></div>
+                        <img class="img-content d-block mx-auto" src="assets/imgs/slide3.jpg" alt="Third slide">
+                    </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
 
-            <div data-spy="scroll" data-target="#navbar-example3" data-offset="0">
-              <h4 id="item-1">Item 1</h4>
-              <p>...</p>
-              <h5 id="item-1-1">Item 1-1</h5>
-              <p>...</p>
-              <h5 id="item-1-2">Item 2-2</h5>
-              <p>...</p>
-              <h4 id="item-2">Item 2</h4>
-              <p>...</p>
-              <h4 id="item-3">Item 3</h4>
-              <p>...</p>
-              <h5 id="item-3-1">Item 3-1</h5>
-              <p>...</p>
-              <h5 id="item-3-2">Item 3-2</h5>
-              <p>...</p>
-            </div> -->
+            <div class="row">
 
-                <form class="col-12 my-2">
-                    <input class="form-control" type="text" placeholder="O que você está procurando?">
-                </form>
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                    </div>
+                </div>
 
-                <div class="col-12">
+                <div class="col-12 col-md-8">
                     <div class="row">
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card my-2 col-8 offset-2 p-2 text-center">
+                                    <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
+                                    <div class="card-body">
+                                        <p class="card-title">Era pra ser uma camiseta</p>
+                                        <p class="card-text">R$ 59,90</p>
+                                        <a href="#" class="btn btn-block btn-primary">Comprar</a>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
-                        </div>
-                        <div class="card my-2 col-8 offset-2 p-2 text-center">
-                            <img class="card-img-top" src="assets\imgs\imagem.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <p class="card-title">Era pra ser uma camiseta</p>
-                                <p class="card-text">R$ 59,90</p>
-                                <a href="#" class="btn btn-block btn-primary">Comprar</a>
-                            </div>
+
                         </div>
                     </div>
-
                 </div>
             </div>
-        </div> <!-- end row -->
+
+
+
+
+
+        </div>
 
 
 
