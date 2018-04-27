@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
+
+@media screen and (max-width: 576px) {
+
+    .hide-on-mobile { display: none }
+
+}
+
+
 .nav-item:hover {
     background-color: gray;
     transition: 0.5s
