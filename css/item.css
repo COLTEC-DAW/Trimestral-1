@@ -1,9 +1,25 @@
-.mostra{
+nav{
+    font-family: 'Offside', cursive;
+}
 
-    margin-top: 5%;
+.amostra{
+    padding-top: 5%;
+    text-align: center;
+    font-family: 'Offside', cursive;
 }
 
 img:hover {
     transition: .3s;
     opacity: 0.3;
-  }
+}
+
+.detalhes{
+    margin: 15%;
+}
+
+.detalhes p ,h2{
+    padding-bottom: 30%;
+    text-align: left;
+}
+
+

@@ -1,6 +1,12 @@
+nav{
+    font-family: 'Offside', cursive;
+}
+
+
 h3{
     font-family: 'Mouse Memoirs';
-    padding-bottom: 5%;}
+    padding-bottom: 5%;
+}
 
 img {
     max-height:400px;
@@ -34,4 +40,13 @@ img:hover {
 p{
     text-align: center;
     font-family: 'Offside', cursive;
+}
+
+.col-xs-12 {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.col-sm-3{
+    margin-top: 3%;
 }
