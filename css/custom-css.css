@@ -3,24 +3,61 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
 
     .hide-on-mobile { display: none }
 
+    .container-on-small { 
+        max-width: 540px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+
 }
 
+@media screen and (min-width: 768px) {
+    
+    .ml-3-lg-md { margin-left: 1em; }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .hide-on-small { display: none }
+}
+
+@media screen and (min-width: 1001px) { .hide-md-and-up { display: none } }
+
+.login-drop {
+ color: white !important;   
+}
+
+.dropdown-menu {
+    text-transform: none;
+}
+
+.lista-img:hover {
+    transform: scale(1.2);
+    transition: 0.3s
+}
 
 .nav-item:hover {
-    background-color: gray;
+    background-color: rgb(31, 45, 56);
     transition: 0.5s
 }
 
-.navbar-brand {
+.nav-item.nav-link.active {
+    background-color: rgb(31, 45, 56)
+}
+
+.logo {
     font-family: 'Gloria Hallelujah', cursive;
 }
 
-.bg-dark-blue {
-    background-color: rgb(28, 44, 58)
+.bg-dark {
+    background-color: rgb(43, 62, 78) !important
 }
 
 .nav-pills .nav-link.active, .nav-pills .show >.nav-link {
