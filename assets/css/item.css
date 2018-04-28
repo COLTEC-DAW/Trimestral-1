@@ -1,0 +1,13 @@
+body {
+  background-color: #DDE; }
+
+.circle {
+  border-radius: 100%;
+  border: 5px solid gray;
+  width: 100px;
+  height: 100px; }
+  .circle:hover {
+    transform: scale(1.2);
+    transition: 0.2s; }
+
+/*# sourceMappingURL=item.css.map */

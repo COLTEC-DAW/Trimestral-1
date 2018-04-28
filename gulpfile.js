@@ -18,6 +18,6 @@ gulp.task('watch', function() {
     browserSync.init({
         server: './'
     });
-    gulp.watch('assets/sass/*.css').on('change', browserSync.reload);
+    gulp.watch('assets/css/*.css').on('change', browserSync.reload);
     gulp.watch('./*.html').on('change', browserSync.reload);
 });
