@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@media (max-width: 750px) {
+  #slide {
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=style.css.map */

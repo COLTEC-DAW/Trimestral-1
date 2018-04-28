@@ -1,0 +1,7 @@
+$cel: 750px;
+
+#slide{
+    @media (max-width: $cel) {
+        visibility: hidden;
+    }
+}
