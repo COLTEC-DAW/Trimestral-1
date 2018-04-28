@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Favicon Icon -->
+        <link rel="shortcut Icon" href="../imgs/favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../css/bootstrap.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../css/custom-css.css">
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Camiseteria</title>
+    </head>
+
+    <body>
+
+        <!-- Menu no topo -->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand mr-3" href="#">
+                <img src="../imgs/favicon.png" width="30" height="30" class="d-inline-block align-top">
+                <span class="logo">Camiseter.ia</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Uma página</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Uma outra página</a>
+                </li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropleft hide-md-and-up nav-item">
+                    <a class="dropdown-toggle login-drop" data-toggle="dropdown">Login</a>
+                    <ul class="dropdown-menu animated slideInRight" role="menu">
+                        <div class="col-lg-12">
+                            <form>
+                                <div class="form-group">
+                                    <label for="username">Login</label>
+                                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" autocomplete="off">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">Senha</label>
+                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Log In">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+
+              <form class="form-inline my-2 my-lg-0 justify-content-end hide-on-small">
+                <input class="form-control mr-sm-2" type="text" placeholder="Login">
+                <input class="form-control mr-sm-2" type="password" placeholder="Senha">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+              </form>
+            </div>
+        </nav>
+
+        <div>
+            <div class="row mt-4"> <div class="col-lg-4 col-md-4 col-12">
+            <h2 class="mt-4 text-center">Camisa Polo</h2> </div> </div>
+            <div class="row mt-4">    
+                <div class="col-lg-4 col-md-4 col-12 mb-5">
+                    <img class="img-fluid d-block mx-auto" src="../imgs/camisa2.jpg">
+                </div>
+                <div class="col-lg-6 col-md-6 offset-lg-1 offset-md-1 col-12 container-on-small">
+                    <div class="row mt-4">
+                        <div class="col-lg-4 col-md-4 col-12 d-flex align-items-center mb-xs-4">
+                            <p class="d-lg-block d-none">Modelo</p>
+                        </div>
+                        <div class="col-lg-8 col-sm-12 d-block">
+                            <div class="col-12 btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-outline-secondary col-4">
+                                    <input type="radio" name="modelo" autocomplete="off" checked> Masculino
+                                </label>
+                                <label class="btn btn-outline-secondary col-4">
+                                    <input type="radio" name="modelo" autocomplete="off"> Feminino
+                                </label>
+                                <label class="btn btn-outline-secondary col-4">
+                                    <input type="radio" name="modelo" autocomplete="off"> Infantil
+                                </label>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-sm-12 col-sm-12 col-xs-12 d-flex align-items-center">
+                            <p class="d-lg-block d-none">Cor</p>
+                        </div>
+                            
+                        <div class="col-lg-8 col-sm-12 d-block">
+                            <div class="col-12 btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-success col-3 mr-4" id="color-btn">
+                                    <input type="radio" name="cor" autocomplete="off" checked>
+                                </label>
+                                <label class="btn btn-secondary col-3 mr-4" id="color-btn">
+                                    <input type="radio" name="cor" autocomplete="off">
+                                </label>
+                                <label class="btn btn-warning col-3 mr-4" id="color-btn">
+                                    <input type="radio" name="cor" autocomplete="off">
+                                </label>
+                                <label class="btn btn-info col-3 mr-4" id="color-btn">
+                                    <input type="radio" name="cor" autocomplete="off">
+                                </label>
+                            </div>
+                        </div>                   
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-lg-4 col-sm-12 d-flex align-items-center">
+                            <p class="d-lg-block d-none">Tamanho</p>
+                        </div>
+                        <div class="col-lg-8 col-sm-12 d-block">
+                            <div class="input-group col-sm-12">
+                                <select class="form-control">
+                                    <option>P</option>
+                                    <option>M</option>
+                                    <option>G</option>
+                                    <option>GG</option>
+                                </select>
+                            </div>
+                        </div>                    
+                    </div>
+
+                    <h2 class="mt-4 h1">R$ 49,99</h2>
+                    <form action="../carrinho.html">
+                        <input class="btn btn-success btn-block mt-4" type="submit" value="Comprar" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Javascript Area -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="../js/bootstrap.js"></script>
+    </body>
+</html>

@@ -30,6 +30,8 @@
 
 @media screen and (min-width: 1001px) { .hide-md-and-up { display: none } }
 
+#color-btn { padding: 40px; border-radius: 50% }
+
 .login-drop {
  color: white !important;   
 }
@@ -37,6 +39,8 @@
 .dropdown-menu {
     text-transform: none;
 }
+
+.dropleft { cursor: pointer; }
 
 .lista-img:hover {
     transform: scale(1.2);
