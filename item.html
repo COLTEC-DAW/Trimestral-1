@@ -3,9 +3,9 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Camisa do Narutinho</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="principal.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-            <a class="nav-link text-dark" href="">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-dark" href="principal.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
             <a class="nav-link text-dark" href="">Fale Conosco</a>
@@ -40,35 +40,69 @@
         </div>
     </nav>
 
-
-    <div class="row">
-        
-        <div class="col-12 col-xl-4 col-lg-4 my-1 ima">
-            <h1 class="text-center">Camisa do Narutinho</h1>
-            <div class="card border-dark w-75 h-100 mx-auto d-block">
-            <img class="w-100 h-100 p-2" src="camisaItem.jpg" alt="Item">            
-            </div>
-        </div>
-
-        
-        <div class="col-12 col-xl-8 my-1">
-            <div class="row">
-                <div class="row"> 
-                    <div class="col-6">
-                        <p>Modelo</p>
-                        <p>Cor</p>
-                        <p>Tamanho</p>
+        <div class="row">
+            <!--Imagem do item-->
+            <div class="col-12 col-xl-4 col-lg-4 my-1">
+                    <h1 class="text-center">Camisa do Narutinho</h1>
+                    <div class="border-dark w-75 h-100 mx-auto d-block">
+                    <img class="w-100 h-75 p-2" src="camisaItem.jpg" alt="Item">            
                     </div>
-                    <div class="col-6">
-                        
+            </div>           
+            <!--Customizando o Item-->
+            <div class="col-12 col-xl-7 col-lg-7 my-5">
+                <div class="row">
+                    <div class="d-none d-md-inline col-md-5 col-lg-5">
+                      <h3>Modelo</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                        <label class="btn btn-primary">
+                        <input type="radio" name="options" id="option1" autocomplete="off" > Masculino
+                        </label>
+                        <label class="btn btn-danger">
+                        <input type="radio" name="options" id="option2" autocomplete="off"> Feminino
+                        </label>
+                        <label class="btn btn-success">
+                        <input type="radio" name="options" id="option3" autocomplete="off"> Infantil
+                        </label>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="d-none d-md-inline col-md-5 col-lg-5 my-3">
+                        <h3>Cor</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 row my-1">
+                        <div class="dot col-3 bg-success" type="button">
+                        </div>
+                        <div class="dot col-3 bg-secondary" type="button">
+                        </div>
+                        <div class="dot col-3 bg-primary" type="button">
+                        </div>
+                        <div class="dot col-3 bg-danger" type="button">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="d-none d-md-inline col-md-5 col-lg-5 my-4">
+                        <h3>Tamanho</h3>
+                    </div>
+                    <div class="col-12 col-md-7 col-lg-7">
+                        <select class="button col-10 form-control my-4">
+                        <option>PP</option>
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>XG</option>
+                        </select>
+                     </div>
+                </div>
+                <div class="row my-3">
+                    <div class="d-md-inline col-md-5 col-lg-5">
+                        <h2 class="price text-center">R$199,99</h2>
+                    </div>
+                    <a href="carrinho.html"type="button" class="btn btn-warning btn-lg btn-block my-2">Comprar</a>
+                </div>
             </div>
-        </div> 
-    </div>
-
-
-
-
-
+        </div>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            </div>
 </body>

@@ -1,5 +1,18 @@
 .ima:hover{
     transform: scale(1.1);
-    transition: 0.3s;
-    
+    transition: 0.3s;}
+.dot{
+    display: inline-block;
+    height: 75px;}
+.img-fluid{
+    border-radius: 10px;}
+.price{
+    color: #A00;
+    font-size: 1.5em;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+    font-weight: 700;
+    display: inline;
+}
+#suaCompra{
+    padding-bottom: 5%;
 }
