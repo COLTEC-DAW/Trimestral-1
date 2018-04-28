@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,OAAQ;EACJ,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,4BAA4B;;AAGlD,KAAM;EACF,MAAM,EAAE,KAAK",
+"sources": ["../sass/carrinho.scss"],
+"names": [],
+"file": "carrinho.css"
+}
