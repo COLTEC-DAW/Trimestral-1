@@ -1,3 +1,0 @@
-Cor azul: 23 - 162 - 184
-Cinza escuro: 52 - 58 - 64
-font: colona

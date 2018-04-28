@@ -1,0 +1,49 @@
+/* Definir tamanho do carousel */
+.carousel {
+    width: 80%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+/* Colocar margem na barra lateral de navegacao */
+.nav-pills {
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+/*Trocar cor do preenchimento da barra e pesquisa lateral*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #17A2B8;
+    background-color: #343A40;
+}
+
+/*Trocar cor do texto*/
+a {
+    color: #343A40;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+/* Colocar margem na barra de pesquisa*/
+.form-group.input-group {
+    margin-top: 2em;
+    margin-left: 3%;
+}
+
+/* Estilizar o texto de nome e preco da camisa */
+pNomePreco {
+    margin-left: 20%;
+    font-size: 130%;
+}
+
+/* Colocar margem bottom na camisa pra a de cima nao ficar colada na de baixo */
+.d-block.w-100.camisa {
+    margin-top: 15%
+}
+
+/* zoom na camisa ao passar o mouse */
+img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}

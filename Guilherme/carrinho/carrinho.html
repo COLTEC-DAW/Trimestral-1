@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Camisete.ria</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="carrinho.css">
+</head>
+<body>
+
+    <!--  NavBar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+            <!-- Logotipo -->
+            <img src="imagens/logo.png" alt="Smiley face" height="50" width="50"> 
+            <a class="navbar-brand" href="#">amisete.ria</a>
+
+            <!-- Menus -->
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                <a class="nav-link" href="../principal/principal.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="../item especifico/itemEspecifico.html">Item</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Carrinho</a>
+                </li>
+            </ul>
+        
+            <!-- Login -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <form class="form-inline">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"></span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Login" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                </form>
+            </nav>
+
+            <!-- senha -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <form class="form-inline">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1"></span>
+                    </div>
+                    <input class="form-control" type="password" placeholder="Senha" aria-label="Senha" aria-describedby="basic-addon1">
+                </div>
+                </form>
+            </nav>
+
+            <!-- Botao Log in -->
+            <button type="button" class="btn btn-info">Log In</button>
+        
+        </div>
+    </nav>
+
+
+    <div class="row">
+        <!-- Aviso de compra-->
+        <div class="col-11 col-sm-11">
+            <div class="alert alert-success" role="alert">
+                <h1 class="alert-heading">Ótimo!</h1>
+                <p>Já estamos quase lá! Preencha os dados abaixo para concluir sua compra.</p>
+            </div>
+        </div>
+        <div class="col-11 col-sm-6">
+            <ul class="list-group">
+                <div class="col-12 col-sm-12">
+                    <li class="list-group-item active">
+                        <h3>Sua Compra</h3>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <!-- Nao mostrar camisa se for dispositivo movel -->
+                            <div class="col-sm-6 d-none d-sm-block">
+                                <img class="d-block w-100 camisa" src="imagens/camiseta.png" alt="First slide">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6 col-sm-12">
+                                    <h5>Camiseta Lucifer</h5>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <h4>R$39,90</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-6 d-none d-sm-block">
+                                <img class="d-block w-100 camisa" src="imagens/camiseta.png" alt="First slide">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6 col-sm-12">
+                                    <h5>Camiseta Lucifer</h5>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <h4>R$39,90</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-6 d-none d-sm-block">
+                                <img class="d-block w-100 camisa" src="imagens/camiseta.png" alt="First slide">
+                            </div>
+
+                            <div class="row">
+                                <div class="col-6 col-sm-12">
+                                    <h5>Camiseta Lucifer</h5>
+                                </div>
+                                <div class="col-6 col-sm-12">
+                                    <h4>R$39,90</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item active">
+                        <h3>Total: 119,70</h3>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="col-12 col-sm-6">
+                <div class="container">
+                    <h2>Dados Pessoais</h2>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-4 col-sm-3">
+                                    <h6>Nome</h6>
+                                </div>
+                                <div class="col-7 col-sm-7">
+                                    <input class="form-control" id="nome" placeholder="Nome">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-4 col-sm-3">
+                                    <h6>Email</h6>
+                                </div>
+                                <div class="col-7 col-sm-7">
+                                    <input class="form-control" id="email" placeholder="E-mail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-4 col-sm-3">
+                                    <h6>CPF</h6>
+                                </div>
+                                <div class="col-7 col-sm-7">
+                                    <input class="form-control" id="cpf" placeholder="000.000.000-00">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">        
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <div class="checkbox">
+                                    <label></label><input type="checkbox" name="remember"> Desejo receber promoções e ofertas por e-mail</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <h2>Cartão de Crédito</h2>
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-4 col-sm-3">
+                                    <h6>Número</h6>
+                                </div>
+                                <div class="col-7 col-sm-7">
+                                    <input class="form-control" id="numero" placeholder="XXXX XXXX XXXX XXXX">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-4 col-sm-3">
+                                    <h6>Validade</h6>
+                                </div>
+                                <div class="col-7 col-sm-7">
+                                    <input class="form-control" id="validade" placeholder="MM/AAAA">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-4 col-sm-3">
+                                    <h6>CVV</h6>
+                                </div>
+                                <div class="col-7 col-sm-7">
+                                    <input class="form-control" id="cvv" placeholder="XXX">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!-- Botao Concluir-->
+                    <div class="col-10 col-sm-10">
+                        <a type="button" class="btn btn-success btn-block" href="../carrinho/carrinho.html">Comprar</a>
+                   </div>
+
+                </div>
+                      
+        </div>
+
+    </div>
+
+
+</body>
+</html>
