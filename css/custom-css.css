@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 1001px) { .hide-md-and-up { display: none } }
 
-#color-btn { padding: 40px; border-radius: 50% }
+#color-btn { padding: 30px; border-radius: 50% }
 
 .login-drop {
  color: white !important;   

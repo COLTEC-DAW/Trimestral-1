@@ -25,7 +25,7 @@
 
         <!-- Menu no topo -->
         <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand mr-3" href="#">
+            <a class="navbar-brand mr-3" href="index.html">
                 <img src="imgs/favicon.png" width="30" height="30" class="d-inline-block align-top">
                 <span class="logo">Camiseter.ia</span>
             </a>
@@ -94,8 +94,10 @@
             </div>
         </div>    
         
+        <div class="row">
+
         <!-- Card com as camisas compradas -->
-        <div class="col-lg-5 col-sm-12">
+        <div class="col-lg-5 col-sm-12 mb-5">
 
             <div class="card">
 
@@ -109,7 +111,7 @@
                             <img class="d-block img-fluid" src="imgs/camisa1.jpg">
                         </div>
 
-                        <div class="col-5 offset-1">
+                        <div class="col-5 offset-0 offset-lg-1">
                             <p>Camiseta Longline</p>
                             <p>R$ 89,90</p>
                         </div>
@@ -122,7 +124,7 @@
                             <img class="d-block img-fluid" src="imgs/camisa2.jpg">
                         </div>
 
-                        <div class="col-lg-5 col-12 offset-lg-1">
+                        <div class="col-lg-5 col-12 offset-lg-1 offset-0">
                                 <p>Camisa Polo</p>
                                 <p>R$ 48,99</p>
                         </div>
@@ -135,7 +137,7 @@
                             <img class="d-block img-fluid" src="imgs/camisa3.jpg">
                         </div>
 
-                        <div class="col-5 offset-1">
+                        <div class="col-5 offset-0 offset-lg-1">
                                 <p>Regata Nike</p>
                                 <p>R$ 78,90</p>
                         </div>
@@ -144,13 +146,60 @@
 
                 </div>
 
-                <div class="card-footer"> Total: R$ 217,79 </div>
+                <div class="card-footer"> Total: <span class="offset-8"> R$ 217,79 </span> </div>
 
             </div>
 
         </div>
 
+
+        <!-- Formulário -->
+        <div class="col-lg-6 col-sm-12 ml-3">
+            <h1 class="mt-lg-0 mt-sm-4">Dados Pessoais</h1>
+            <form class="mt-4">
+                <div class="form-group row offset-2">
+                    <label class="col-sm-2" for="nome">Nome</label>
+                    <input type="text" class="form-control col-sm-10" id="nome" placeholder="Nome Completo">
+                </div>
+                          
+                <div class="form-group row offset-2">
+                    <label class="col-sm-2" for="email">Email</label>
+                    <input type="email" class="form-control col-sm-10" id="email" placeholder="Email para contato">
+                </div>
+
+                <div class="form-group row offset-2">
+                    <label class="col-sm-2" for="cpf">CPF</label>
+                    <input type="text" class="form-control col-sm-10" id="cpf" placeholder="000.000.000-00">
+                </div>
+
+                <div class="form-check offset-2">
+                    <input type="checkbox" class="form-check-input" id="promocoes" checked>
+                    <label class="form-check-label" for="promocoes">Desejo receber promoções e ofertas por e-mail</label>
+                </div>
             
+                <h1 class="mt-4">Cartão de Crédito</h1>
+
+                <div class="form-group row offset-2 mt-4">
+                    <label class="col-sm-5" for="numCartao">Número do cartão</label>
+                    <input type="text" class="form-control col-sm-7" id="numCartao" placeholder="XXXX XXXX XXXX XXXX">
+                </div>
+                              
+                <div class="form-group row offset-2">
+                    <label class="col-sm-5" for="validade">Validade</label>
+                    <input type="datetime" class="form-control col-sm-7" id="validade" placeholder="MM/AA">
+                </div>
+    
+                <div class="form-group row offset-2">
+                    <label class="col-sm-5" for="cpf">CVV</label>
+                    <input type="text" class="form-control col-sm-7" id="cpf" placeholder="XXX">
+                </div>
+
+                <button type="submit" class="btn btn-success btn-block ml-3 mt-5">Concluir sua compra</button>
+
+            </form>
+        </div>
+
+        </div>
         </div>
 
 
