@@ -8,44 +8,44 @@
     <title>Item</title>
 </head>
 <body>
-        <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-12 d-md-none d-none  d-lg-block">
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <a class="navbar-brand" href="#">Camiset.ria</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="#">Outra Página</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">Mais Uma Página</a>
-                                    </li>
-                                </ul>
-                                <form class="form-inline my-2 my-lg-0">
-                                        <input class="form-control mr-sm-2" type="login" placeholder="Login" aria-label="Login">
-                                        <input class="form-control mr-sm-2" type="password" placeholder="Senha" aria-label="Senha">
-                                        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Log in</button>
-                                    </form>
-        
-                            </div>
-                        </nav>
-                    </div>        
-                </div>
-    
-    
-    
+    <!--Cabeçalho-->
     <div class="container-fluid">
-            <h2 class="mt-4 text-center">Camiseta Qualquer</h2>
+        <div class="row">
+            <div class="col-sm-12  col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Camiset.ria</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Outra Página</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Mais Uma Página</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="login" placeholder="Login" aria-label="Login">
+                                <input class="form-control mr-sm-2" type="password" placeholder="Senha" aria-label="Senha">
+                                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Log in</button>
+                            </form>
+
+                    </div>
+                </nav>
+            </div>        
+        </div>
+    
+                <!--Camiseta-->
+    <div class="container-fluid">
+            <h2 class="mt-4 text-left">Camiseta Qualquer</h2>
             <div class="row mt-4 mb-4">    
                 <div class="col-lg-4 col-sm-10 col-xs-10 offset-sm-1 offset-xs-1">
-                    <img class="lista-img img-fluid d-block mx-auto" src="/imgs/camisa4.jpg" alt="">
+                    <img class="lista-img img-fluid d-block mx-auto" src="imgs/camisa.jpg" alt="">
                 </div>
                 <div class="col-lg-6 offset-lg-1 col-sm-12 col-xs-12">
                     <div class="row mt-4">
@@ -66,28 +66,22 @@
                             </div>
                         </div>                    
                     </div>
+                    <!--Cores-->
                     <div class="row mt-5">
                         <div class="col-lg-4 col-sm-12 col-sm-12 col-xs-12 d-flex align-items-center">
                             <p class="d-none d-lg-block">Cor</p>
                         </div>
-                        
-                        <div class="col-lg-8 col-sm-12 col-xs-12 d-block">
-                            <div class="row">
-                                <div class="col-lg-3 col-sm-3 col-3">
-                                    <span id="dot-green"></span>
-                                </div>
-                                <div class="col-lg-3 col-sm-3 col-3">
-                                    <span id="dot-gray"></span>
-                                </div>
-                                <div class="col-lg-3 col-sm-3 col-3">
-                                    <span id="dot-orange"></span>
-                                </div>
-                                <div class="col-lg-3 col-sm-3 col-3">
-                                    <span id="dot-blue"></span>
-                                </div>
-                            </div>
-                        </div>                    
+                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <button class="btn btn-sm btn-outline-success" type="checkbox" style="width: 70px; height: 70px; border-radius: 100%;"></button>
+                                <button class="btn btn-sm btn-outline-secondary" type="checkbox" style="width: 70px; height: 70px; border-radius: 100%;"></button>
+                                <button class="btn btn-sm btn-outline-warning" type="checkbox" style="width: 70px; height: 70px; border-radius: 100%;"></button>
+                                <button class="btn btn-sm btn-outline-primary" type="checkbox" style="width: 70px; height: 70px; border-radius: 100%;"></button>
+                                        </div>
+                          </div>
                     </div>
+             
+                    <!--Tamanhos-->
                     <div class="row mt-5">
                         <div class="col-lg-4 col-sm-12 col-xs-12 d-flex align-items-center">
                             <p class="d-none d-lg-block">Tamanho</p>
@@ -103,7 +97,7 @@
                             </div>
                         </div>                    
                     </div>
-                    <h2 class="mt-4">R$58,50</h2>
+                    <h2 class="mt-4">R$59,99</h2>
                     <form action="carrinho.html">
                         <input class="mt-5 mb-sm-4 d-block btn-block btn btn-success" type="submit" value="Comprar" />
                     </form>
