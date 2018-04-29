@@ -6,6 +6,27 @@
   }
 }
 
+h3 {
+  text-align: center;
+}
+
+#divopcoes div {
+  margin-bottom: 12px;
+}
+
+#modelodiv {
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  width: 33%;
+}
+
+#cordiv {
+  border-radius: 50%;
+  margin-left: 8%;
+  padding: 20px;
+}
+
 .max-width {
   width: 100%;
   display: inline;
@@ -13,6 +34,7 @@
 
 .iten * {
   text-align: center;
+  color: #000;
 }
 
 .iten:hover {
