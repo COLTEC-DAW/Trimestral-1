@@ -1,7 +1,40 @@
-$cel: 750px;
+$cel: 767px;
 
-#slide{
+.celHide{
     @media (max-width: $cel) {
         visibility: hidden;
+        height: 0px;
+        width: 0px;
     }
+}
+
+.max-width{
+    width: 100%;
+    display: inline;
+}
+
+.iten * {
+    text-align: center
+}
+
+.iten:hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.iten{
+    box-sizing: border-box;
+    border: 3px;
+    border-style: solid;
+    border-color: #fff;
+    background-color: #ddd;
+    padding: 2%;
+}
+
+.item-foto{
+    width: 100%;
+}
+
+.slide{
+    margin-bottom: 10px;
 }
