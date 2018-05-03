@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title></title>
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/carrinho.css">
+
+    </head>
+    <body>
+
+
+        <!-- Navbar-->
+        <div class="pos-f-t">
+            <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light">
+
+                <a href="index.html" class=" text-center col-1 navbar-brand" name="button"><i id="logo" class="fab fa-contao"></i></a>
+                <button class="navbar-toggler btn btn-light    d-md-none" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="offset-sm-8 navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Features</a>
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <form class="form-inline d-block d-sm-none">
+                            <input class="form-control  mr-sm-2" type="login">
+                            <input class="form-control  mr-sm-2" type="password">
+                            <button class="btn btn-outline-success my-2 my-xs-0 " type="submit">Log in</button>
+                        </form>
+                    </div>
+                </div>
+
+                <form class="form-inline d-none d-md-block">
+                    <input class="form-control  mr-sm-2" type="login">
+                    <input class="form-control  mr-sm-2" type="password">
+                    <button class="btn btn-light my-2 my-xs-0 " type="submit">Log in</button>
+                </form>
+
+            </nav>
+        </div>
+
+
+
+        <div class="offset-1 col-10 jumbotron jumbontron-fluid my-4 px-0" id=aviso>
+            <div class="container ">
+                <h1 class="display-4">Ótimo</h1>
+                <p class="lead">Já estamos quase lá! Preencha os dados abaixo para concluir a sua compra.</p>
+            </div>
+        </div>
+
+        <div class="offset-md-1 offset-lg-1 col-sm-12 col-md-10 col-lg-10" >
+            <div class="row">
+                <div class="offset-1 col-10 offset-lg-0 col-lg-6 px-0  my-4" id="suaCompra">
+                    <div class="card" >
+                        <div class="card-header mainText">Sua Compra</div>
+                        <div class="card-body" id="cardBody">
+                            <div class="row camiseta">
+                                <div class="d-none d-lg-flex col-lg-4 ">
+                                    <img class="w-100" src="images/p2.jpg" alt="">
+                                </div>
+                                <div class=" col-12 col-lg-8 mt-4">
+                                    <h5 class="col-sm-6 col-lg-12 mainText">Camiseta Qualquer</h5>
+                                    <p class="offset-sm-1 col-sm-5 text mt-2">R$: 59,90</p>
+                                </div>
+                            </div>
+                            <div class="row camiseta mt-4">
+                                <div class="d-none d-lg-flex col-lg-4 ">
+                                    <img class="w-100 " src="images/p5.jpg" alt="">
+                                </div>
+                                <div class="col-sm-12 col-lg-8">
+                                    <h5 class="col-sm-6 col-lg-12 mainText mt-4">Camiseta Qualquer</h5>
+                                    <p class="offset-sm-1 col-sm-5 text mt-2">R$: 59,90</p>
+                                </div>
+                            </div>
+                            <div class="row camiseta my-4">
+                                <div class="d-none d-lg-flex col-lg-4 ">
+                                    <img class="w-100 " src="images/p6.jpg" alt="">
+                                </div>
+                                <div class="col-sm-12 col-lg-8">
+                                    <h5 class="col-sm-6 col-lg-12 mainText mt-4">Camiseta Qualquer</h5>
+                                    <p class="offset-sm-1 col-sm-5 text mt-2">R$: 59,90</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row justify-content-between">
+                                <div class="col-6">
+                                    <p class="mainText" >Total:</p>
+                                </div>
+                                <div class="col-6">
+                                    <p class="text-right mainText">R$ 174,97</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="offset-1 col-10 offset-lg-1 col-lg-5 px-0  my-4" id="dadosPessoais">
+
+                    <h1 class="mainText">Dados Pessoais</h1>
+                    <form>
+                        <div class="form-group row mt-1">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Nome</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPassword" placeholder="Nome Completo">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPassword" placeholder="E-mail para contato">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputPassword" class="col-sm-2 col-form-label">CPF</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPassword" placeholder="000.000.000-00">
+                            </div>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Deseja receber promoções e ofertas por e-mail?</label>
+                        </div>
+                    </form>
+
+                    <h1 class="mainText mt-4">Cartão de crédito</h1>
+                    <form>
+                        <div class="form-group row mt-1">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Número do Cartão</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPassword" placeholder="XXXX XXXX XXXXX XXXX">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Validade</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPassword" placeholder="MM/AAAA">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputPassword" class="col-sm-2 col-form-label">CVV</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputPassword" placeholder="XXX">
+                            </div>
+                        </div>
+                        <button class="button text col-12 mt-1" type="button" name="button">Concluir sua compra</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

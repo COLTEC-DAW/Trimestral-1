@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title></title>
+
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Slabo+27px" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/item.css">
+
+
+    </head>
+    <body>
+        <!-- Navbar-->
+        <div class="pos-f-t">
+            <nav class="navbar navbar-collapse navbar-expand-lg navbar-light bg-light">
+
+                <a href="index.html" class=" text-center col-1 navbar-brand" name="button"><i id="logo" class="fab fa-contao"></i></a>
+                <button class="navbar-toggler btn btn-light    d-md-none" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="offset-sm-8 navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">Features</a>
+                        <a class="nav-item nav-link" href="#">Pricing</a>
+                        <form class="form-inline d-block d-sm-none">
+                            <input class="form-control  mr-sm-2" type="login">
+                            <input class="form-control  mr-sm-2" type="password">
+                            <button class="btn btn-outline-success my-2 my-xs-0 " type="submit">Log in</button>
+                        </form>
+                    </div>
+                </div>
+
+                <form class="form-inline d-none d-md-block">
+                    <input class="form-control  mr-sm-2" type="login">
+                    <input class="form-control  mr-sm-2" type="password">
+                    <button class="btn btn-light my-2 my-xs-0 " type="submit">Log in</button>
+                </form>
+
+            </nav>
+        </div>
+
+        <div class="mx-5 my-4">
+            <h1  class=" text-center col-xs-12 col-sm-12 col-lg-3 my-4" >Camiseta qualquer</h1>
+            <div id="elements" class="col-12">
+            <div class="row">
+
+                <div id="leftSide" class="col-xs-10 col-sm-10 col-md-3 col-lg-3 m-0 p-0">
+                    <img class="col-12 p-0 mw-50" src="./images/p1.jpg" alt="">
+                </div>
+
+                <div id="rightSide" class="offset-lg-1 col-xs-12 col-sm-12 col-md-8 col-lg-8 m-0 p-0 row">
+
+                    <div id="info1" class="d-none d-md-inline col-md-6 col-lg-6">
+                        <p class="text ml-2 my-5" >Modelo:</p>
+                        <p class="text ml-2 my-5">Cor: </p>
+                        <p class="text ml-2 my-5">Tamanho: </p>
+                        <h2 class="text-left ml-2 my-4">R$ 59,90</h2>
+                    </div>
+
+                    <div id="info2" class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                        <div id="type" class="p-0 btn-group btn-group-toggle col-12 my-4" data-toggle="buttons">
+                            <label class="btn button btn-light col-4">
+                                <input type="radio" name="options" id="option1" autocomplete="on" checked>Masculino
+                            </label>
+
+                            <label class="btn button btn-light active col-4">
+                                <input type="radio" name="options" id="option2" autocomplete="on">Feminino
+                            </label>
+
+                            <label class="btn button btn-light col-4">
+                                <input type="radio" name="options" id="option3" autocomplete="on">Infantil
+                            </label>
+                        </div>
+
+                        <div class=" mx-0 row col-12 my-4">
+                            <span class="dot col-3 bg-warning"></span>
+                            <span class="dot col-3 bg-success"></span>
+                            <span class="dot col-3 bg-danger"></span>
+                            <span class="dot col-3 bg-info"></span>
+                        </div>
+
+                        <select class="button col-12 form-control my-4">
+                            <option>PP</option>
+                            <option>P</option>
+                            <option>M</option>
+                            <option>P</option>
+                        </select>
+                    </div>
+                    <h2 id="preco1" class="col-10 d-sm-block d-md-none text-center">R$ 59,90</h2>
+
+                    <a href="carrinho.html" id="comprar" class="mx-0 p-0 col-md-12 col-lg-12 btn btn-light ml-1" type="button" name="button">
+                        Comprar
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
