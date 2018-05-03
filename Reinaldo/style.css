@@ -1,0 +1,72 @@
+@media (max-width: 767px) {
+  .celHide {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+#divopcoes div {
+  margin-bottom: 12px;
+}
+
+#modelodiv {
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  width: 33%;
+}
+
+#cordiv {
+  border-radius: 50%;
+  margin-left: 8%;
+  padding: 20px;
+}
+
+.max-width {
+  width: 100%;
+  display: inline;
+}
+
+#suaCompra {
+  border: 2px;
+  border-radius: 3px;
+}
+
+.fundoDestaque {
+  background-color: #ddd;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.iten * {
+  text-align: center;
+  color: #000;
+}
+
+.iten:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.iten {
+  box-sizing: border-box;
+  border: 3px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #ddd;
+  padding: 2%;
+}
+
+.item-foto {
+  width: 100%;
+}
+
+.slide {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */
