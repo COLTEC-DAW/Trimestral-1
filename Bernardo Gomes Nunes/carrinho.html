@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Importando o bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="my-styles.css">
+    <title>Camisete.ria</title>
+</head>
+<body>
+
+    <!-- Barra de menu responsiva -->
+
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md justify-content-between">
+        <!-- Nome do site -->
+           <a class="navbar-brand" href="main-page.html">Camisete.ria</a>
+        <!-- Botão para sm -->   
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse row col-lg-11 col-md-10 justify-content-between" id="navbarNavAltMarkup">
+            <!-- Links do menu -->
+                <div class="navbar-nav col-lg-6 col-md-4 row">
+                    <a class="nav-item nav-link col-4 text-center" href="main-page.html">Home</a>
+                    <a class="nav-item nav-link col-4 text-center" href="item.html">Item</a>
+                    <a class="nav-item nav-link col-4 text-center active" href="carrinho.html">Carrinho</a>
+                </div>
+            <!-- Login e senha -->    
+                <form class="form-inline col-lg-6 col-md-8 row justify-content-end">
+                        <input class="form-control col-4 mr-1" type="text" placeholder="Login">
+                        <input class="form-control col-4 mr-1" type="password" placeholder="Senha">
+                        <button class="btn btn-primary col-2" type="submit">Log in</button>
+                </form> 
+            </div>
+        </nav>
+
+
+        <div class="container mb-4">
+            <!-- Alert -->
+            <div class="alert alert-primary mt-5">
+                <h1 class="alert-title">Ótimo!</h1>
+                <p>Já estamos quase lá! Preencha os dados abaixo para concluir sua compra.</p>
+            </div>
+
+            <!-- Lista -->
+            <div class="row">
+                <ul class="list-group col-md-5" style="padding-left: 15px"> <!-- Para alinhar com o container-->
+                    <!-- Título -->
+                    <li class="list-group-item list-group-item-primary"><h5>Sua compra</h5></li>
+                    
+                <!-- Itens -->
+                    <li class="list-group-item">
+                        <div class="col-md-12 row">
+                            <img src="hard.jpg" alt="..." class="img-responsive col-md-6" style="height: 100px">
+                            <div class="col-md-6">
+                                <h5>Camisa qualquer</h5>
+                                <label>R$59,90</label>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="list-group-item">
+                        <div class="col-md-12 row">
+                            <img src="indice.jpg" alt="..." class="img-responsive col-md-6" style="height: 100px">
+                            <div class="col-md-6">
+                                <h5>Camisa qualquer</h5>
+                                <label>R$59,90</label>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="col-md-12 row">
+                            <img src="70.jpg" alt="..." class="img-responsive col-md-6" style="height: 100px">
+                            <div class="col-md-6">
+                                <h5>Camisa qualquer</h5>
+                                <label>R$59,90</label>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Preço -->
+                    <li class="list-group-item list-group-item-primary">
+                        <div class="row justify-content-between">
+                            <h5>Total: </h5>
+                            <h5>R$179,70</h5>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="col-md-7 row">
+                    <form class="col-md-12">
+                        <!-- Dados pessoais -->
+
+                        <h2 class="col-md-12 mt-2">Dados Pessoais</h2>
+                        <div class="form-group row">
+                            <label class="col-md-4 carrinho-lbl">Nome:</label>
+                            <input type="text" class="form-control col-md-8" placeholder="Nome Completo">
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-4 carrinho-lbl">Email:</label>
+                            <input type="email" class="form-control col-md-8" placeholder="Email para contato">
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-4 carrinho-lbl">CPF:</label>
+                            <input type="text" class="form-control col-md-8" placeholder="000.000.000-00">
+                        </div>
+                        <div class="form-group form-check carrinho-lbl">
+                            <input type="checkbox" class="form-check-input" id="checkbox">
+                            <label class="form-check-label" for="checkbox">Desejo receber promoções e ofertas por email</label>
+                        </div>
+                        <!-- Cartão de crédito -->
+
+                        <h2 class="col-md-12">Cartão de Crédito</h2>
+                        
+                        <div class="form-group row">
+                                <label class="col-md-4 carrinho-lbl">Número do Cartão</label>
+                                <input type="text" class="form-control col-md-8" placeholder="XXXX XXXX XXXX XXXX">
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label class="col-md-4 carrinho-lbl">Validade</label>
+                            <input type="text" class="form-control col-md-8" placeholder="MM/AAAA">
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-md-4 carrinho-lbl">CVV</label>
+                            <input type="text" class="form-control col-md-8" placeholder="XXX">
+                        </div>
+                        <!-- Botão de confirmar -->
+
+                        <button type="submit" class="btn btn-success btn-block">Confirmar</button>
+                    </form>               
+                </div>
+            </div>      
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
