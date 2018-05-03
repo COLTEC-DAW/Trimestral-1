@@ -1,0 +1,8 @@
+figure{
+    transition:1s;
+}
+
+figure:hover{
+    transform: scale(1.2);
+}
+
