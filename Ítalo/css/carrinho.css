@@ -1,0 +1,25 @@
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+.jumbotron{
+  margin-top: 45px;
+  background-color:#fdff89;
+}
+
+h2{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.lista-img {
+width: 200px;
+height: 270px; }
+
+img{
+  margin-left: 20px;
+  margin-right: 20px;
+}
