@@ -1,0 +1,15 @@
+body {
+    background-color: #DDE  !important;
+}
+
+.circle {
+    border-radius:100% !important;
+    border:5px solid gray !important;
+    width: 100px !important;
+    height: 100px !important;
+
+    &:hover {
+        transform: scale(1.2) !important;
+        transition: 0.2s !important;
+    }
+}

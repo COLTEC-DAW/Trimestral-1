@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Carrinho</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/carrinho.css">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Camisete.ria</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Uma página</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Outra página</a>
+                    </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control form-control-sm mt-2 mt-lg-0" type="text" placeholder="Username">
+                  <input class="form-control form-control-sm mt-2 mt-lg-0 mx-sm-2" type="password" placeholder="Password">
+                  <button class="btn btn-sm btn-outline-warning ml-auto ml-sm-0 mt-2 mt-lg-0" type="submit">Login</button>
+              </form>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+
+            <div class="card bg-dark text-white col-12 col-lg-10 offset-lg-1 my-4">
+                <div class="head"></div>
+                <div class="card-img-overlay">
+                    <h1 class="card-title text-center">Ótimo</h1>
+                    <div class="card-body">
+                        <h4 class="card-text text-center">Já estamos quase lá! Preencha os dados abaixo para concluir sua compra.</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-12 col-lg-5 offset-lg-1">
+                    <div class="card">
+                        <div class="card-header">
+                            <strong>Sua Compra</strong>
+                        </div>
+                        <div class="card-body">
+                            <div class="media col-lg-12 mb-2">
+                                <div class="align-self-start mr-3 square d-none d-lg-block"></div>
+                                <div class="media-body">
+                                    <div class="row">
+                                        <p class="card-text col-6 col-lg-12"><strong>Camisa qualquer</strong></p>
+                                        <p class="card-text col-6 col-lg-12">R$ 49,90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media col-lg-12 mb-2">
+                                <div class="align-self-start mr-3 square d-none d-lg-block"></div>
+                                <div class="media-body">
+                                    <div class="row">
+                                        <p class="card-text col-6 col-lg-12"><strong>Camisa qualquer</strong></p>
+                                        <p class="card-text col-6 col-lg-12">R$ 49,90</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="media col-lg-12 mb-2">
+                                <div class="align-self-start mr-3 square d-none d-lg-block"></div>
+                                <div class="media-body">
+                                    <div class="row">
+                                        <p class="card-text col-6 col-lg-12"><strong>Camisa qualquer</strong></p>
+                                        <p class="card-text col-6 col-lg-12">R$ 49,90</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="row">
+                                <p class="card-text col-6"><strong>Total:</strong></p>
+                                <p class="card-text col-6"><strong>149,70</strong></p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <h4 class="mt-5 mb-4"><strong>Dados pessoais</strong></h4>
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputName" class="col-4 col-form-label text-right"><strong>Name</strong></label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" id="inputName" placeholder="Seu nome">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail" class="col-4 col-form-label text-right"><strong>Email</strong></label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" id="inputEmail" placeholder="camisete.ria@camiseteria.com">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputCpf" class="col-4 col-form-label text-right"><strong>CPF</strong></label>
+                            <div class="col-8">
+                                <input type="number" class="form-control" id="inputCpf" placeholder="000.000.000-00">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-group form-check text-right">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Desejo receber promoções e ofertas por email</label>
+                    </div>
+
+                    <h4 class="mt-5 mb-4"><strong>Cartão de crédito</strong></h4>
+                    <form>
+                        <div class="form-group row">
+                            <label for="inputCartao" class="col-4 col-form-label text-right"><strong>Número do cartão</strong></label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" id="inputCartao" placeholder="XXXX XXXX XXXX XXXX">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputValidade" class="col-4 col-form-label text-right"><strong>Validade</strong></label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" id="inputValidade" placeholder="MM/AAAA">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputCvv" class="col-4 col-form-label text-right"><strong>CVV</strong></label>
+                            <div class="col-8">
+                                <input type="text" class="form-control" id="inputvv" placeholder="XXX">
+                            </div>
+                        </div>
+                    </form>
+
+                    <a href="index.html" class="btn btn-block btn-success my-5" name="button">Concluir sua compra</a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </body>
+</html>
