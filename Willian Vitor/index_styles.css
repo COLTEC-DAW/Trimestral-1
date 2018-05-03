@@ -1,0 +1,32 @@
+.fundoroxo{
+    background-color: #660099;
+}
+
+.texto-roxo{
+    color:#660099;
+}
+
+/*somente para o zoom aplicado nas imagens*/
+/* desktop */
+@media only screen and (min-width: 992px){
+    .zoom-img:hover {
+        width: 80%;
+        height: 80%;
+    }
+}
+    
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .zoom-img:hover {
+        width: 85%;
+        height: 85%;
+    }
+}
+    
+    /* smartphone */
+@media only screen and (max-width: 767px) {
+    .zoom-img:hover {
+        width: 60%;
+        height: 78%;
+    }
+}
