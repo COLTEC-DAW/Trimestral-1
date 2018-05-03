@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- Favicon Icon -->
+        <link rel="shortcut Icon" href="imgs/favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/custom-css.css">
+
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Camiseteria</title>
+    </head>
+
+    <body>
+
+        <!-- Menu no topo -->
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand mr-3" href="index.html">
+                <img src="imgs/favicon.png" width="30" height="30" class="d-inline-block align-top">
+                <span class="logo">Camiseter.ia</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Uma página</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Uma outra página</a>
+                </li>
+              </ul>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropleft hide-md-and-up nav-item">
+                    <a class="dropdown-toggle login-drop" data-toggle="dropdown">Login</a>
+                    <ul class="dropdown-menu animated slideInRight" role="menu">
+                        <div class="col-lg-12">
+                            <form>
+                                <div class="form-group">
+                                    <label for="username">Login</label>
+                                    <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="" autocomplete="off">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">Senha</label>
+                                    <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" autocomplete="off">
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-success" value="Log In">
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+
+              <form class="form-inline my-2 my-lg-0 justify-content-end hide-on-small">
+                <input class="form-control mr-sm-2" type="text" placeholder="Login">
+                <input class="form-control mr-sm-2" type="password" placeholder="Senha">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+              </form>
+            </div>
+        </nav>
+
+        <div class="container mb-5">
+
+
+        <!-- Mensagem ao usuário -->
+        <div class="jumbotron mt-3">
+            <div class="px-5">
+            <h1 class="display-4">Ótimo!</h1>
+            <p class="lead">Já estamos quase lá! Preencha os dados abaixo para concluir sua compra.</p>
+            </div>
+        </div>    
+        
+        <div class="row">
+
+        <!-- Card com as camisas compradas -->
+        <div class="col-lg-5 col-sm-12 mb-5">
+
+            <div class="card">
+
+                <div class="card-header"> Sua Compra </div>
+
+                <div class="card-body">
+
+                    <div class="row">
+
+                        <div class="col-4 d-lg-block d-none card">
+                            <img class="d-block img-fluid" src="imgs/camisa1.jpg">
+                        </div>
+
+                        <div class="col-5 offset-0 offset-lg-1">
+                            <p>Camiseta Longline</p>
+                            <p>R$ 89,90</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row mt-3">
+
+                        <div class="col-4 d-lg-block d-none card">
+                            <img class="d-block img-fluid" src="imgs/camisa2.jpg">
+                        </div>
+
+                        <div class="col-lg-5 col-12 offset-lg-1 offset-0">
+                                <p>Camisa Polo</p>
+                                <p>R$ 48,99</p>
+                        </div>
+    
+                    </div>
+
+                    <div class="row mt-3">
+
+                        <div class="col-4 d-lg-block d-none card">
+                            <img class="d-block img-fluid" src="imgs/camisa3.jpg">
+                        </div>
+
+                        <div class="col-5 offset-0 offset-lg-1">
+                                <p>Regata Nike</p>
+                                <p>R$ 78,90</p>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+                <div class="card-footer"> Total: <span class="offset-8"> R$ 217,79 </span> </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Formulário -->
+        <div class="col-lg-6 col-sm-12 ml-3">
+            <h1 class="mt-lg-0 mt-sm-4">Dados Pessoais</h1>
+            <form class="mt-4">
+                <div class="form-group row offset-2">
+                    <label class="col-sm-2" for="nome">Nome</label>
+                    <input type="text" class="form-control col-sm-10" id="nome" placeholder="Nome Completo">
+                </div>
+                          
+                <div class="form-group row offset-2">
+                    <label class="col-sm-2" for="email">Email</label>
+                    <input type="email" class="form-control col-sm-10" id="email" placeholder="Email para contato">
+                </div>
+
+                <div class="form-group row offset-2">
+                    <label class="col-sm-2" for="cpf">CPF</label>
+                    <input type="text" class="form-control col-sm-10" id="cpf" placeholder="000.000.000-00">
+                </div>
+
+                <div class="form-check offset-2">
+                    <input type="checkbox" class="form-check-input" id="promocoes" checked>
+                    <label class="form-check-label" for="promocoes">Desejo receber promoções e ofertas por e-mail</label>
+                </div>
+            
+                <h1 class="mt-4">Cartão de Crédito</h1>
+
+                <div class="form-group row offset-2 mt-4">
+                    <label class="col-sm-5" for="numCartao">Número do cartão</label>
+                    <input type="text" class="form-control col-sm-7" id="numCartao" placeholder="XXXX XXXX XXXX XXXX">
+                </div>
+                              
+                <div class="form-group row offset-2">
+                    <label class="col-sm-5" for="validade">Validade</label>
+                    <input type="datetime" class="form-control col-sm-7" id="validade" placeholder="MM/AA">
+                </div>
+    
+                <div class="form-group row offset-2">
+                    <label class="col-sm-5" for="cpf">CVV</label>
+                    <input type="text" class="form-control col-sm-7" id="cpf" placeholder="XXX">
+                </div>
+
+                <button type="submit" class="btn btn-success btn-block ml-3 mt-5">Concluir sua compra</button>
+
+            </form>
+        </div>
+
+        </div>
+        </div>
+
+
+        <!-- Javascript Area -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/bootstrap.js"></script>
+
+    </body>
+</html>
