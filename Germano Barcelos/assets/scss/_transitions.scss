@@ -1,0 +1,11 @@
+@mixin scale-transformations($scale) {
+    -moz-transform: scale($scale);
+    -webkit-transform: scale($scale);
+    transform: scale($scale);
+}
+
+@mixin transitions($time) {
+    -moz-transition: all $time;
+    -webkit-transition: all $time;
+    transition: all $time;
+}

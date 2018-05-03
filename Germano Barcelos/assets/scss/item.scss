@@ -1,0 +1,75 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/breakpoints";
+
+.lista-img {
+    @include media-breakpoint-up(md) {
+        width: 427px;
+        height: 612px;     
+    };
+
+    @include media-breakpoint-down(sm) { 
+        width: 270px;
+        height: 388px;
+    } 
+}
+
+#dot-green {
+    @include media-breakpoint-up(md) {
+        height: 75px;
+        width: 75px;      
+    };
+
+    @include media-breakpoint-down(sm) { 
+        height: 75px;
+        width: 75px; 
+    }
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dot-gray {
+    @include media-breakpoint-up(md) {
+        height: 75px;
+        width: 75px;      
+    };
+
+    @include media-breakpoint-down(sm) { 
+        height: 75px;
+        width: 75px; 
+    }
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block; 
+}
+
+#dot-orange {
+    @include media-breakpoint-up(md) {
+        height: 75px;
+        width: 75px;      
+    };
+
+    @include media-breakpoint-down(sm) { 
+        height: 75px;
+        width: 75px; 
+    }
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#dot-blue {
+    @include media-breakpoint-up(md) {
+        height: 75px;
+        width: 75px;      
+    };
+
+    @include media-breakpoint-down(sm) { 
+        height: 75px;
+        width: 75px;  
+    }
+    background-color: lightseagreen;
+    border-radius: 50%;
+    display: inline-block;
+}

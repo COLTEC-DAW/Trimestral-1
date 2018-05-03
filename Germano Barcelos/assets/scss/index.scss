@@ -1,0 +1,13 @@
+@import "transitions";
+
+.lista-img {
+    width: 226px;
+    height: 302px;
+}
+
+.box-img {
+    @include transitions(500ms);
+    &:hover {
+        @include scale-transformations(1.1);
+    } 
+}
