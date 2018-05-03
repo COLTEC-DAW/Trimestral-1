@@ -1,0 +1,47 @@
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+.carousel{
+margin-top: 20px;
+}
+
+.poster-img{
+margin-top: 22px;
+margin-bottom: 15px;
+
+}
+
+img{
+margin-left: 0px;
+}
+.zoom {
+  
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+form{
+margin-top: 15px;
+}
+
+thumbnail{
+height: 100%;
+width: 100%;
+overflow: hidden;
+}
+
+
+.thumbnails {
+  display: inline-block;
+  *display:inline; /* ie7 fix */
+  float:  center; /* this is the part that makes it work */
+}
+
+.panel {
+  margin: 20px !important; 
+  padding:0 !important;
+}
