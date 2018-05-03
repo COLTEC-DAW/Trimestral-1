@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Importando o bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="my-styles.css">
+    <title>Camisete.ria</title>
+</head>
+<body>
+
+    <!-- Barra de menu responsiva -->
+
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md justify-content-between">
+        <!-- Nome do site -->
+           <a class="navbar-brand" href="main-page.html">Camisete.ria</a>
+        <!-- Botão para sm -->   
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse row col-lg-11 col-md-10 justify-content-between" id="navbarNavAltMarkup">
+            <!-- Links do menu -->
+                <div class="navbar-nav col-lg-6 col-md-4 row">
+                    <a class="nav-item nav-link col-4 text-center" href="main-page.html">Home</a>
+                    <a class="nav-item nav-link col-4 text-center active" href="item.html">Item</a>
+                    <a class="nav-item nav-link col-4 text-center" href="carrinho.html">Carrinho</a>
+                </div>
+            <!-- Login e senha -->    
+                <form class="form-inline col-lg-6 col-md-8 row justify-content-end">
+                        <input class="form-control col-4 mr-1" type="text" placeholder="Login">
+                        <input class="form-control col-4 mr-1" type="password" placeholder="Senha">
+                        <button class="btn btn-primary col-2" type="submit">Log in</button>
+                </form> 
+            </div>
+        </nav>
+
+        <div class="m-3">
+            <div class="row">
+                <!-- Titulo -->
+                <div class="col-md-12 col-xs-12 mb-2">
+                    <h2>Camisa Qualquer</h2>
+                </div>
+
+                <!-- Imagem -->
+                <div class="col-md-4 col-xs-12">
+                    <img src="images/camiseta2.jpg" alt="" class="w-100 img-responsive">
+                </div>
+
+                <div class="col-md-8">
+
+                    <!-- Modelos -->
+                    <div class="row mb-3">
+                        <label class="col-md-6 d-none d-md-block">Modelo</label>
+                        <div class="btn-group btn-group-toggle col-md-6 col-xs-12 justify-content-center mt-3" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary active">
+                              <input type="radio" name="options" id="option1" autocomplete="off" checked> Masculino
+                            </label>
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option2" autocomplete="off"> Feminino
+                            </label>
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option3" autocomplete="off"> Infantil
+                            </label> 
+                        </div>
+                    </div>
+                    <!-- Cores -->
+                    <div class="row">
+                        <label class="col-md-6 mt-3 d-none d-md-block">Cor</label>
+                        
+                        <div class="col-md-6 btn-group-toggle col-xs-12">
+                            <div class="btn-group-toggle d-flex justify-content-center" data-toggle="buttons">
+                                <label class="btn active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>
+                                    <img src="images/verde.png" alt="" class="img-responvide cor rounded-circle">
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" name="options" id="option2" autocomplete="off">
+                                    <img src="images/cinza.jpg" alt="" class="img-responvide cor rounded-circle">
+                                </label>
+                                <label class="btn">
+                                    <input type="radio" name="options" id="option3" autocomplete="off">
+                                    <img src="images/amarelo.jpg" alt="" class="img-responvide cor rounded-circle">
+                                </label>
+                                
+                                <label class="btn">
+                                    <input type="radio" name="options" id="option4" autocomplete="off">
+                                    <img src="images/azul.png" alt="" class="img-responvide cor rounded-circle">
+                                </label>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!-- Tamanhos -->
+                    <div class="row mt-3 mb-3">
+                        <label class="col-md-6 d-none d-md-block">Tamanho</label>
+                        
+                        <div class="col-md-6 col-xs-12 d-flex justify-content-center">
+                            <select class="form-control col-8">
+                                <option>P</option>
+                                <option>M</option>
+                                <option>G</option>
+                                <option>GG</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Preço -->
+                    <h2>R$59,90</h2>
+
+                    <!-- Botão -->
+                        <button type="button" class="mt-3 btn btn-success btn-block col-md-8 offset-md-2 col-xs-10 offset-xs-1">Confirmar</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
