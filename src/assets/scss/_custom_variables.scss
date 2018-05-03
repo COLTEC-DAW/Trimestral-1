@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
+$white:    #fff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057 ;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+$blue:    #007bff ;
+$indigo:  #6610f2 ;
+$purple:  #6f42c1 ;
+$pink:    #e83e8c ;
+$red:     #dc3545 ;
+$orange:  #fd7e14 ;
+$yellow:  #ffc107 ;
+$green:   #28a745 ;
+$teal:    #20c997 ;
+$cyan:    #17a2b8 ;
+
+$primary: #324D5C;
+$secondary: #F0CA4D;
+$success: #558B2F;
+$info: #46B29D;
+$warning: #E37B40;
+$danger: #DE5B49;
+$light: #9E9E9E;
+$dark: #0f1319;
+
+$theme-colors: ();
+$theme-colors: map-merge((
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+), $theme-colors);
+
+@each $color, $value in $theme-colors {
+    .swatch-#{$color} {
+        color: color-yiq($value);
+    }
+}
+
+$font-family-sans-serif:      'Roboto', sans-serif;
+$font-family-monospace:       'Roboto Mono', monospace;
+$font-family-base:            $font-family-sans-serif;
+
+$body-bg:                   $white ;
+$body-color:                $gray-900 ;
+
+$component-active-color:      $secondary;
+$component-active-bg:         $primary;
+
+$border-width:                1px ;
+$border-color:                $gray-300 ;
+
+$border-radius:               .25rem ;
+$border-radius-lg:            .3rem ;
+$border-radius-sm:            .2rem ;
+
+$nav-tabs-border-color:             $gray-300 ;
+$nav-tabs-border-width:             $border-width ;
+$nav-tabs-border-radius:            $border-radius ;
+$nav-tabs-link-hover-border-color:  $gray-200 $gray-200 $nav-tabs-border-color ;
+$nav-tabs-link-active-color:        $gray-700 ;
+$nav-tabs-link-active-bg:           $body-bg ;
+$nav-tabs-link-active-border-color: $gray-300 $gray-300 $nav-tabs-link-active-bg ;
+
+$nav-pills-border-radius:           $border-radius ;
+$nav-pills-link-active-color:       $component-active-color ;
+$nav-pills-link-active-bg:          $component-active-bg ;
+
+$navbar-light-color:                rgba($black, .5) ;
+$navbar-light-hover-color:          rgba($black, .7) ;
+$navbar-light-active-color:         rgba($black, .9) ;
+$navbar-light-disabled-color:       rgba($black, .3) ;
+$navbar-light-toggler-border-color: rgba($black, .1) ;
