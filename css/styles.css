@@ -1,0 +1,12 @@
+img{
+  border-radius: 10px;
+}
+.dot{
+  border-radius:  50%;
+  display: inline-block;
+
+  height: 75px;
+}
+#cam:hover{
+  transform: scale(1.25);
+}
