@@ -1,0 +1,68 @@
+#dot-green {
+    background-color: greenyellow;
+    border-radius: 50%;
+    display: inline-block; }
+    @media (min-width: 768px) {
+      #dot-green {
+        height: 75px;
+        width: 75px; } }
+    @media (max-width: 767.98px) {
+      #dot-green {
+        height: 75px;
+        width: 75px; } }
+
+#dot-gray {
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block; }
+    @media (min-width: 768px) {
+      #dot-gray {
+        height: 75px;
+        width: 75px; } }
+    @media (max-width: 767.98px) {
+      #dot-gray {
+        height: 75px;
+        width: 75px; } }
+  
+  #dot-orange {
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block; }
+    @media (min-width: 768px) {
+      #dot-orange {
+        height: 75px;
+        width: 75px; } }
+    @media (max-width: 767.98px) {
+      #dot-orange {
+        height: 75px;
+        width: 75px; } }
+  
+  #dot-blue {
+    background-color: lightseagreen;
+    border-radius: 50%;
+    display: inline-block; }
+    @media (min-width: 768px) {
+      #dot-blue {
+        height: 75px;
+        width: 75px; } }
+    @media (max-width: 767.98px) {
+      #dot-blue {
+        height: 75px;
+        width: 75px; } }
+
+  .controle{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .controle_preco{
+    margin-top: 30px !important;;
+  }
+
+  .controle1{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .controle2{
+    margin-bottom: 20px !important;
+  }
