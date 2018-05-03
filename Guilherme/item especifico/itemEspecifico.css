@@ -1,0 +1,105 @@
+/* Ajustar texto do nome da camisa */
+h3 {
+    margin-top: 10%;
+    text-align: center;
+    margin-right: 5%;
+}
+
+/* Ajustar o texto Modelo  */
+pModelo {
+    font-size: 150%;
+    margin-left: 30%;
+    margin-top: 20%;
+    display: inline-block;
+}
+
+/* Ajustar os botoes masculino femino e infantil */
+botoesMasculinoFeminoInfantil {
+    margin-top: 20%;
+    display: inline-block;
+}
+
+/* Ajustar o texto Cor  */
+pCor {
+    font-size: 150%;
+    margin-left: 30%;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+/* Ajustar os botoes de cor */
+botoesCor {
+    margin-top: 10%;
+    display: inline-block;
+}
+
+/* Ajustar o texto Tamanho */
+pTamanho {
+    font-size: 150%;
+    margin-left: 30%;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+/* Ajustar os o selecionador de tamanhos */
+selecionarTamanho {
+    margin-top: 10%;
+    display: inline-block;
+}
+
+
+
+
+/* Ajustar o texto Calcular Frete */
+pFrete {
+    font-size: 150%;
+    margin-left: 30%;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+/* Ajustar o Frete */
+frete {
+    margin-top: 10%;
+    display: inline-block;
+}
+
+/* Ajustar o texto Preco */
+pPreco {
+    font-size: 150%;
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 200%;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+
+/* Ajustar o botao comprar */
+botaoComprar {
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+/* Trocar cor botao comprar */
+.btn-success {
+    color: #fff;
+    background-color: #343A40;
+    border-color: #343A40;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #17A2B8;
+    border-color: #17A2B8;
+}
+
+/* Ajustar detalhes do produto */
+h2 {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+p {
+    margin-left: 5%;
+    font-size: 150%;
+}
