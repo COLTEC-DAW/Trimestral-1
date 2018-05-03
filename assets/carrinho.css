@@ -1,0 +1,47 @@
+
+a{
+    color: #F75847 !important;
+    font-size: 1.6em;
+    font-family: 'Slabo 27px', serif;
+}
+button{
+    color: #F75847 !important;
+    border-color: #F75847 !important;
+    font-size: 1.4em;
+}
+h1{
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    color: #F75847 !important;
+}
+img{
+    border-radius: 5px;
+}
+#logo{
+    font-size: 2em;
+}
+#cardBody{
+    height: 370px;
+    overflow: auto;
+}
+#dadosPessoais{
+    height: 60%;
+}
+.button{
+    border-radius: 5px;
+    font-size: 1.3em !important;
+    background-color: #F75847 !important;
+    text-align: center !important;
+    color: white !important;
+}
+.mainText{
+    font-size: 1.3em;
+    text-decoration-style: solid;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #F75847 !important;
+
+}
+.text{
+    font-size: 1em;
+    font-family: 'Slabo 27px', serif;
+}
